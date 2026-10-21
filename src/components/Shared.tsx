@@ -37,7 +37,7 @@ export function StyleCard({ lang, s }: { lang: Lang; s: Style }) {
       href={hrefFor(lang, "product", s.slug)}
       className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-ink/10"
     >
-      <div className="relative aspect-[4/5] overflow-hidden bg-sand">
+      <div className="relative aspect-[3/4] overflow-hidden bg-sand">
         <img
           src={s.img}
           alt={s.name[lang]}
@@ -58,7 +58,8 @@ export function StyleCard({ lang, s }: { lang: Lang; s: Style }) {
         </div>
       </div>
       <div className="flex flex-1 flex-col p-4">
-        <h3 className="text-sm font-semibold leading-snug text-ink">{s.name[lang]}</h3>
+        <p className="font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-muted-foreground">{s.code}</p>
+        <h3 className="mt-1 text-sm font-semibold leading-snug text-ink">{s.name[lang]}</h3>
         <p className="mt-1.5 line-clamp-1 text-[11px] text-muted-foreground">
           {t.common.fabric}: {s.fabric} · {t.common.gsm} {s.gsm}
         </p>

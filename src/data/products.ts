@@ -1,11 +1,12 @@
 import type { Lang } from "@/i18n";
 import catalog from "./catalog.json";
 
-export type CategoryKey = "leggings" | "pants" | "shorts" | "bras-tops" | "sets" | "outer-jogger";
+export type CategoryKey = "leggings" | "pants" | "shorts" | "bras-tops" | "sets" | "unitards" | "outer-jogger";
 
 export interface Style {
   slug: string;
   cat: CategoryKey;
+  code: string;
   img: string;
   moq: number;
   fabric: string;
@@ -23,7 +24,7 @@ export const STYLES: Style[] = catalog.styles as Style[];
 
 export const bySlug = (slug: string) => STYLES.find((s) => s.slug === slug);
 
-export const CATEGORY_KEYS: CategoryKey[] = ["leggings", "pants", "shorts", "bras-tops", "sets", "outer-jogger"];
+export const CATEGORY_KEYS: CategoryKey[] = ["leggings", "pants", "shorts", "bras-tops", "sets", "unitards", "outer-jogger"];
 
 export const HOT_STYLES = STYLES.filter((s) => s.hot);
 

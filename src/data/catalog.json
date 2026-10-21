@@ -1,501 +1,1196 @@
 {
-  "styles": [
-    {
-      "slug": "nakedfeel-high-rise-legging-25",
-      "cat": "leggings",
-      "img": "/images/p-highwaist-black.webp",
-      "moq": 300,
-      "fabric": "80% Nylon / 20% Spandex, 40D matte",
-      "gsm": 220,
-      "sizes": "XXS–3X",
-      "colors": ["black", "navy", "graphite", "sage"],
-      "features": ["squat", "stretch4", "wicking", "highrise", "opaque"],
-      "hot": true,
-      "name": { "en": "NakedFeel High-Rise Legging 25\"", "zh": "NakedFeel 高腰裸感紧身裤 25\"", "es": "Legging NakedFeel tiro alto 25\"" },
-      "highlight": { "en": "Our #1 reorder style — the buttery 25-inch legging that built the Amazon bestseller category.", "zh": "翻单率第一的爆款——成就亚马逊畅销品类的 25 英寸黄油裸感紧身裤。", "es": "Nuestro estilo más repetido: el legging de 25 pulgadas que definió la categoría bestseller de Amazon." }
-    },
-    {
-      "slug": "buttersoft-high-rise-legging-28",
-      "cat": "leggings",
-      "img": "/images/p-butterluxe-sage.webp",
-      "moq": 300,
-      "fabric": "75% Nylon / 25% Spandex, double-sided brushed",
-      "gsm": 250,
-      "sizes": "XS–2XL",
-      "colors": ["sage", "black", "mocha", "blush"],
-      "features": ["butter", "brushed", "stretch4", "tummy", "highrise"],
-      "hot": true,
-      "name": { "en": "ButterSoft High-Rise Legging 28\"", "zh": "ButterSoft 高腰磨毛紧身裤 28\"", "es": "Legging ButterSoft tiro alto 28\"" },
-      "highlight": { "en": "Double-sided brushed knit with a weightless second-skin feel — the premium Align-style workhorse.", "zh": "双面磨毛针织，轻盈贴肤——对标高端 Align 系列的走量主力款。", "es": "Tejido peinado doble cara con sensación ligera — el caballo ganador estilo Align premium." }
-    },
-    {
-      "slug": "sculpt-seamless-scrunch-legging",
-      "cat": "leggings",
-      "img": "/images/p-scrunch-charcoal.webp",
-      "moq": 300,
-      "fabric": "92% Nylon / 8% Spandex, seamless tube knit",
-      "gsm": 260,
-      "sizes": "S–XL",
-      "colors": ["charcoal", "black", "espresso"],
-      "features": ["seamless", "scrunch", "compress", "ribbed", "highrise"],
-      "hot": true,
-      "name": { "en": "Sculpt Seamless Scrunch Legging", "zh": "Sculpt 无缝蜜桃臀紧身裤", "es": "Legging Sculpt scrunch sin costuras" },
-      "highlight": { "en": "TikTok-viral ruched back seam on a compressive seamless knit — the booty-lift bestseller formula.", "zh": "压缩感无缝面料 + TikTok 爆款褶皱提臀线——蜜桃臀畅销公式。", "es": "La costilla fruncida viral de TikTok sobre tejido compresivo sin costuras — la fórmula bestseller." }
-    },
-    {
-      "slug": "ribbed-seamless-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-ribbed-sand.webp",
-      "moq": 300,
-      "fabric": "90% Nylon / 10% Spandex, ribbed seamless",
-      "gsm": 240,
-      "sizes": "S–XL",
-      "colors": ["sand", "terracotta", "sage"],
-      "features": ["ribbed", "seamless", "stretch4", "highrise", "wicking"],
-      "isNew": true,
-      "name": { "en": "Ribbed Seamless Legging", "zh": "罗纹无缝紧身裤", "es": "Legging canalé sin costuras" },
-      "highlight": { "en": "Full-body rib texture with a sculpting hand-feel — the minimalist studio-to-street staple.", "zh": "全身罗纹肌理、塑形手感——极简风瑜伽生活馆必备。", "es": "Textura canalé completa con efecto esculpidor — básico minimalista de estudio a calle." }
-    },
-    {
-      "slug": "camo-pocket-legging-78",
-      "cat": "leggings",
-      "img": "/images/p-camo-print.webp",
-      "moq": 300,
-      "fabric": "82% Polyester / 18% Spandex, sublimation print",
-      "gsm": 260,
-      "sizes": "XS–2XL",
-      "colors": ["camo", "black", "olive"],
-      "features": ["pockets", "squat", "wicking", "upf", "stretch4"],
-      "name": { "en": "Camo Pocket Legging 7/8\"", "zh": "迷彩口袋紧身裤 7/8\"", "es": "Legging camuflaje con bolsillos 7/8\"" },
-      "highlight": { "en": "Muted sage camo with dual phone pockets — the outdoor-lifestyle crossover that sells year-round.", "zh": "低饱和灰绿迷彩 + 双侧手机袋——全年畅销的户外跨界款。", "es": "Camuflaje salvia con bolsillos para teléfono — el cruce outdoor que vende todo el año." }
-    },
-    {
-      "slug": "crisscross-waistband-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-crisscross-mocha.webp",
-      "moq": 300,
-      "fabric": "75% Nylon / 25% Spandex, brushed",
-      "gsm": 240,
-      "sizes": "XS–2XL",
-      "colors": ["mocha", "black", "espresso"],
-      "features": ["highrise", "tummy", "butter", "stretch4"],
-      "name": { "en": "Criss-Cross Waistband Legging", "zh": "交叉腰头紧身裤", "es": "Legging cintura cruzada" },
-      "highlight": { "en": "Wrap-front V waistband that visually cinches the waist — a top-3 Amazon search style.", "zh": "前片交叉 V 型腰头，视觉收腰——亚马逊搜索量前三的款式。", "es": "Cintura cruzada frontal que estiliza — top 3 en búsquedas de Amazon." }
-    },
-    {
-      "slug": "vback-scrunch-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-vback-scrunch.webp",
-      "moq": 300,
-      "fabric": "92% Nylon / 8% Spandex, seamless tube knit",
-      "gsm": 260,
-      "sizes": "S–XL",
-      "colors": ["charcoal", "black", "plum"],
-      "features": ["scrunch", "vback", "seamless", "compress", "highrise"],
-      "hot": true,
-      "name": { "en": "V-Back Scrunch Legging", "zh": "V 腰蜜桃臀紧身裤", "es": "Legging scrunch espalda en V" },
-      "highlight": { "en": "Deep V ruched back waistband over a seamless scrunch — the contouring style brands restock fastest.", "zh": "深 V 褶皱后腰 + 无缝蜜桃臀——品牌补货最快的塑形款。", "es": "Espalda en V fruncida sobre scrunch sin costuras — el estilo que más rápido repone." }
-    },
-    {
-      "slug": "mesh-panel-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-meshpanel-black.webp",
-      "moq": 300,
-      "fabric": "78% Nylon / 22% Spandex + power mesh",
-      "gsm": 240,
-      "sizes": "XS–XL",
-      "colors": ["black", "charcoal"],
-      "features": ["wicking", "stretch4", "highrise", "quickdry"],
-      "name": { "en": "Mesh-Panel Legging", "zh": "网纱拼接紧身裤", "es": "Legging con paneles de malla" },
-      "highlight": { "en": "Strategic sheer mesh ventilation over a squat-proof base — performance styling at a mid price point.", "zh": "透视网纱透气拼接 + 防透基底——中价位高性能走量款。", "es": "Paneles de malla sobre base opaca — rendimiento a precio medio." }
-    },
-    {
-      "slug": "cargo-utility-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-cargo-olive.webp",
-      "moq": 300,
-      "fabric": "85% Nylon / 15% Spandex ripstop-look",
-      "gsm": 260,
-      "sizes": "XS–2XL",
-      "colors": ["olive", "black", "graphite"],
-      "features": ["pockets", "wicking", "upf", "stretch4"],
-      "isNew": true,
-      "name": { "en": "Cargo Utility Legging", "zh": "工装风口袋紧身裤", "es": "Legging cargo utilitario" },
-      "highlight": { "en": "Gorpcore-inspired utility pockets on a performance legging — the gorpcore crossover bestseller.", "zh": "山系 Gorpore 工装口袋 + 功能紧身裤——户外风跨界爆款。", "es": "Bolsillos utilitarios estilo gorpcore sobre legging técnico — bestseller crossover." }
-    },
-    {
-      "slug": "abstract-print-legging-78",
-      "cat": "leggings",
-      "img": "/images/new/p-abstract-print.webp",
-      "moq": 300,
-      "fabric": "82% Polyester / 18% Spandex, printed",
-      "gsm": 250,
-      "sizes": "XS–2XL",
-      "colors": ["abstract", "black"],
-      "features": ["squat", "wicking", "upf", "stretch4"],
-      "name": { "en": "Abstract Print Legging 7/8\"", "zh": "抽象印花紧身裤 7/8\"", "es": "Legging estampado abstracto 7/8\"" },
-      "highlight": { "en": "Muted brush-stroke print with full print-to-pattern matching — a low-competition differentiator.", "zh": "低饱和笔刷抽象印花，花位精准对条——低竞争差异款。", "es": "Estampado de pinceladas con empalme de patrón exacto — diferenciador de baja competencia." }
-    },
-    {
-      "slug": "tiedye-lounge-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-tiedye-lounge.webp",
-      "moq": 300,
-      "fabric": "75% Nylon / 25% Spandex, brushed",
-      "gsm": 240,
-      "sizes": "XS–XL",
-      "colors": ["tiedye", "dustyblue", "sage"],
-      "features": ["butter", "brushed", "stretch4", "highrise"],
-      "name": { "en": "Tie-Dye Lounge Legging", "zh": "扎染休闲紧身裤", "es": "Legging lounge tie-dye" },
-      "highlight": { "en": "Hand-dye look without the hand-dye cost — consistent batch-to-batch color via rotary printing.", "zh": "手工扎染外观，机印成本——批次色差稳定可控。", "es": "Apariencia tie-dye a costo de impresión rotativa — color consistente por lote." }
-    },
-    {
-      "slug": "fleece-lined-winter-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-fleece-black.webp",
-      "moq": 300,
-      "fabric": "75% Nylon / 25% Spandex bonded micro fleece",
-      "gsm": 300,
-      "sizes": "XS–2XL",
-      "colors": ["black", "graphite", "navy"],
-      "features": ["warm", "brushed", "tummy", "squat", "highrise"],
-      "name": { "en": "Fleece-Lined Winter Legging", "zh": "加绒保暖紧身裤", "es": "Legging interior afelpado" },
-      "highlight": { "en": "Bonded micro-fleece warmth with zero bulk — the Q4 volume driver for cold-weather markets.", "zh": "复合微绒锁温、拒绝臃肿——寒冷市场第四季度走量引擎。", "es": "Calidez afelpada sin volumen — el motor de volumen Q4 para mercados fríos." }
-    },
-    {
-      "slug": "maternity-over-belly-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-maternity-black.webp",
-      "moq": 300,
-      "fabric": "75% Nylon / 25% Spandex, brushed",
-      "gsm": 230,
-      "sizes": "S–XXL",
-      "colors": ["black", "graphite"],
-      "features": ["overbelly", "butter", "stretch4", "highrise"],
-      "name": { "en": "Maternity Over-Belly Legging", "zh": "孕妇过腹托腹紧身裤", "es": "Legging premamá over-belly" },
-      "highlight": { "en": "Gentle over-belly support panel in buttery knit — a loyal, high-repeat niche category.", "zh": "黄油面料 + 温和过腹托腹——忠诚度高、复购率高的细分市场。", "es": "Panel de soporte suave en tejido mantequilla — nicho fiel y repetitivo." }
-    },
-    {
-      "slug": "plus-size-sculpt-legging",
-      "cat": "leggings",
-      "img": "/images/new/p-plus-charcoal.webp",
-      "moq": 300,
-      "fabric": "80% Nylon / 20% Spandex, 40D matte",
-      "gsm": 260,
-      "sizes": "1X–4X",
-      "colors": ["black", "espresso", "plum"],
-      "features": ["tummy", "compress", "squat", "stretch4", "highrise"],
-      "name": { "en": "Plus-Size Sculpt Legging", "zh": "大码塑形紧身裤", "es": "Legging Sculpt tallas grandes" },
-      "highlight": { "en": "True graded 1X–4X patterns (not just upsized) with reinforced waistband engineering.", "zh": "1X–4X 真打版（非简单放大），腰头结构强化。", "es": "Patrones reales 1X–4X (no solo ampliados) con cintura reforzada." }
-    },
-    {
-      "slug": "crossover-flare-pant-31",
-      "cat": "pants",
-      "img": "/images/p-flare-navy.webp",
-      "moq": 300,
-      "fabric": "75% Nylon / 25% Spandex, brushed",
-      "gsm": 250,
-      "sizes": "XS–XL",
-      "colors": ["navy", "black", "espresso"],
-      "features": ["highrise", "butter", "stretch4", "tummy", "quickdry"],
-      "hot": true,
-      "name": { "en": "Crossover Flare Pant 31\"", "zh": "交叉腰喇叭裤 31\"", "es": "Pantalón flare cruzado 31\"" },
-      "highlight": { "en": "The Aerie-style crossover waist flare that dominated 2025 — available in 4 inseam options.", "zh": "2025 年横扫市场的 Aerie 风交叉腰喇叭裤——支持 4 种内长定制。", "es": "El flare de cintura cruzada que dominó 2025 — disponible en 4 largos." }
-    },
-    {
-      "slug": "mini-flare-scrunch-legging-29",
-      "cat": "pants",
-      "img": "/images/new/p-miniflare-black.webp",
-      "moq": 300,
-      "fabric": "80% Nylon / 20% Spandex, 40D matte",
-      "gsm": 230,
-      "sizes": "XS–2XL",
-      "colors": ["black", "graphite", "mocha"],
-      "features": ["scrunch", "vback", "stretch4", "highrise"],
-      "isNew": true,
-      "name": { "en": "Mini Flare Scrunch Legging 29\"", "zh": "微喇蜜桃臀紧身裤 29\"", "es": "Legging mini flare scrunch 29\"" },
-      "highlight": { "en": "Subtle flare plus a discreet scrunch — two trends in one silhouette.", "zh": "微喇裤型 + 低调蜜桃线——两大趋势合一。", "es": "Flare sutil más scrunch discreto — dos tendencias en una silueta." }
-    },
-    {
-      "slug": "bootcut-yoga-pant-32",
-      "cat": "pants",
-      "img": "/images/new/p-bootcut-espresso.webp",
-      "moq": 300,
-      "fabric": "75% Nylon / 25% Spandex, brushed",
-      "gsm": 240,
-      "sizes": "XS–3X",
-      "colors": ["espresso", "black", "navy"],
-      "features": ["highrise", "tummy", "wicking", "stretch4"],
-      "name": { "en": "Bootcut Yoga Pant 32\"", "zh": "直筒微喇瑜伽裤 32\"", "es": "Pantalón yoga bootcut 32\"" },
-      "highlight": { "en": "Classic studio bootcut in a modern compressive knit — the studio uniform standard.", "zh": "经典馆服微喇裤 + 现代压缩面料——瑜伽馆团服标准款。", "es": "El bootcut clásico de estudio en tejido compresivo moderno." }
-    },
-    {
-      "slug": "wide-leg-flow-pant",
-      "cat": "pants",
-      "img": "/images/new/p-wideleg-sage.webp",
-      "moq": 300,
-      "fabric": "76% Nylon / 24% Spandex, lightweight jersey",
-      "gsm": 210,
-      "sizes": "XS–2XL",
-      "colors": ["sage", "black", "sand"],
-      "features": ["butter", "quickdry", "stretch4", "highrise"],
-      "isNew": true,
-      "name": { "en": "Wide-Leg Flow Pant", "zh": "高腰阔腿瑜伽裤", "es": "Pantalón ancho fluido" },
-      "highlight": { "en": "Airy wide-leg drape for hot yoga and travel — the fastest-growing silhouette in 2026 catalogs.", "zh": "高温瑜伽与差旅的飘逸阔腿——2026 年产品册增长最快廓形。", "es": "Caída ancha para yoga caliente y viaje — la silueta de mayor crecimiento 2026." }
-    },
-    {
-      "slug": "biker-shorts-6-inch",
-      "cat": "shorts",
-      "img": "/images/p-biker-black.webp",
-      "moq": 300,
-      "fabric": "80% Nylon / 20% Spandex, 40D matte",
-      "gsm": 220,
-      "sizes": "XS–2XL",
-      "colors": ["black", "charcoal", "white"],
-      "features": ["squat", "wicking", "highrise", "quickdry", "opaque"],
-      "hot": true,
-      "name": { "en": "Biker Short 6\"", "zh": "骑行短裤 6\"", "es": "Short biker 6\"" },
-      "highlight": { "en": "The summer volume king — 6-inch squat-proof biker short in stock fabric, 48-hour sampling.", "zh": "夏季走量之王——6 英寸防透骑行短裤，现货面料 48 小时出样。", "es": "El rey del verano: short biker opaco de 6 pulgadas, muestreo en 48 h." }
-    },
-    {
-      "slug": "biker-shorts-8-inch-pocket",
-      "cat": "shorts",
-      "img": "/images/new/p-biker8-black.webp",
-      "moq": 300,
-      "fabric": "80% Nylon / 20% Spandex, 40D matte",
-      "gsm": 240,
-      "sizes": "XS–3X",
-      "colors": ["black", "navy"],
-      "features": ["pockets", "squat", "highrise", "wicking"],
-      "name": { "en": "Biker Short 8\" with Pockets", "zh": "口袋骑行短裤 8\"", "es": "Short biker 8\" con bolsillos" },
-      "highlight": { "en": "Longer inseam plus dual drop-in pockets — the runner-approved variant that extends the season.", "zh": "加长内长 + 双侧插袋——跑步人群认可的季节延长款。", "es": "Largo extra con bolsillos dobles — la variante para corredores." }
-    },
-    {
-      "slug": "scrunch-booty-shorts-35",
-      "cat": "shorts",
-      "img": "/images/new/p-scrunch-short.webp",
-      "moq": 300,
-      "fabric": "92% Nylon / 8% Spandex, seamless tube knit",
-      "gsm": 240,
-      "sizes": "S–XL",
-      "colors": ["charcoal", "black", "blush"],
-      "features": ["seamless", "scrunch", "compress", "highrise"],
-      "name": { "en": "Scrunch Booty Short 3.5\"", "zh": "蜜桃臀运动短裤 3.5\"", "es": "Short scrunch 3.5\"" },
-      "highlight": { "en": "The gym-short version of the viral scrunch legging — engineered for the weight-room crowd.", "zh": " viral 蜜桃臀长裤的健身房短裤版——为撸铁人群而生。", "es": "La versión short del scrunch viral — diseñada para el gimnasio." }
-    },
-    {
-      "slug": "tennis-skort",
-      "cat": "shorts",
-      "img": "/images/new/p-skort-black.webp",
-      "moq": 300,
-      "fabric": "85% Nylon / 15% Spandex woven + knit",
-      "gsm": 200,
-      "sizes": "XS–XXL",
-      "colors": ["black", "white", "sage"],
-      "features": ["pockets", "wicking", "quickdry", "upf"],
-      "isNew": true,
-      "name": { "en": "Tennis Skort", "zh": "网球裙裤", "es": "Falda-pantalón de tenis" },
-      "highlight": { "en": "Pleated skort over built-in shorts with ball pocket — rides the tennis-core wave.", "zh": "百褶外层 + 内置短裤 + 球袋——乘上网球风红利。", "es": "Falda plisada sobre short interior — sobre la ola del tennis-core." }
-    },
-    {
-      "slug": "running-shorts-lined",
-      "cat": "shorts",
-      "img": "/images/new/p-runshort-sage.webp",
-      "moq": 500,
-      "fabric": "86% Polyester / 14% Spandex, woven shell + knit liner",
-      "gsm": 180,
-      "sizes": "XS–XXL",
-      "colors": ["sage", "black", "dustyblue"],
-      "features": ["lined", "quickdry", "pockets", "upf"],
-      "name": { "en": "Lined Running Short", "zh": "内衬跑步短裤", "es": "Short de running forrado" },
-      "highlight": { "en": "Featherweight 2-in-1 run short with split hem and secure key pocket.", "zh": "超轻二合一跑步短裤，开叉下摆 + 钥匙袋。", "es": "Short 2 en 1 ultraligero con abertura y bolsillo para llave." }
-    },
-    {
-      "slug": "scoop-neck-sports-bra",
-      "cat": "bras-tops",
-      "img": "/images/p-bra-set-blush.webp",
-      "moq": 300,
-      "fabric": "75% Nylon / 25% Spandex, brushed",
-      "gsm": 240,
-      "sizes": "XS–2XL",
-      "colors": ["blush", "black", "sage"],
-      "features": ["butter", "wicking", "stretch4", "quickdry"],
-      "name": { "en": "Scoop-Neck Sports Bra", "zh": "U 领运动内衣", "es": "Sujetador deportivo scoop" },
-      "highlight": { "en": "Light-support everyday bra in ButterSoft knit — the natural attach to every legging order.", "zh": "黄油面料轻支撑日常内衣——每个裤子订单的天然搭配款。", "es": "Sujetador ligero diario en tejido ButterSoft — el complemento natural de cada legging." }
-    },
-    {
-      "slug": "longline-sports-bra",
-      "cat": "bras-tops",
-      "img": "/images/new/p-longline-bra.webp",
-      "moq": 300,
-      "fabric": "80% Nylon / 20% Spandex, 40D matte",
-      "gsm": 230,
-      "sizes": "XS–3X",
-      "colors": ["dustyblue", "black", "terracotta"],
-      "features": ["compress", "wicking", "stretch4", "highrise"],
-      "name": { "en": "Longline Sports Bra — Medium Support", "zh": "长款运动内衣（中强度）", "es": "Sujetador longline soporte medio" },
-      "highlight": { "en": "Cropped-tank length with a compressive band — wears like a top, supports like a bra.", "zh": "短背心长度 + 压缩底围——外穿如背心，支撑如内衣。", "es": "Largo de top con banda compresiva — se ve como top, soporta como sujetador." }
-    },
-    {
-      "slug": "racerback-high-support-bra",
-      "cat": "bras-tops",
-      "img": "/images/new/p-racerback-bra.webp",
-      "moq": 300,
-      "fabric": "76% Nylon / 24% Spandex, power mesh",
-      "gsm": 250,
-      "sizes": "XS–XXL",
-      "colors": ["black", "navy", "graphite"],
-      "features": ["compress", "wicking", "stretch4", "quickdry"],
-      "name": { "en": "Racerback High-Support Bra", "zh": "工字背高强度运动内衣", "es": "Sujetador racerback alto soporte" },
-      "highlight": { "en": "Run-ready high support with mesh ventilation and adjustable back closure.", "zh": "跑步级高强度支撑，网纱透气 + 可调节背扣。", "es": "Alto soporte para correr con malla ventilada y cierre ajustable." }
-    },
-    {
-      "slug": "seamless-ribbed-sports-bra",
-      "cat": "bras-tops",
-      "img": "/images/new/p-seamless-bra.webp",
-      "moq": 300,
-      "fabric": "90% Nylon / 10% Spandex, ribbed seamless",
-      "gsm": 230,
-      "sizes": "S–XL",
-      "colors": ["charcoal", "sand", "black"],
-      "features": ["seamless", "ribbed", "stretch4", "wicking"],
-      "name": { "en": "Seamless Ribbed Sports Bra", "zh": "无缝罗纹运动内衣", "es": "Sujetador canalé sin costuras" },
-      "highlight": { "en": "Wireless seamless rib bra with removable pads — pairs with the Ribbed Seamless Legging.", "zh": "无钢圈无缝罗纹内衣，插垫可拆——与罗纹紧身裤组成套装。", "es": "Sujetador canalé inalámbrico con copas extraíbles — conjunto con el legging canalé." }
-    },
-    {
-      "slug": "cropped-tank-top",
-      "cat": "bras-tops",
-      "img": "/images/new/p-croptank-white.webp",
-      "moq": 300,
-      "fabric": "92% Nylon / 8% Spandex, ribbed",
-      "gsm": 220,
-      "sizes": "XS–XXL",
-      "colors": ["white", "black", "sage"],
-      "features": ["wicking", "stretch4", "quickdry", "ribbed"],
-      "name": { "en": "Cropped Tank with Shelf Bra", "zh": "吊带短背心（含一体胸垫）", "es": "Top corto con sujetador integrado" },
-      "highlight": { "en": "Built-in shelf bra in a ribbed crop — the layering piece every set needs.", "zh": "罗纹短背心 + 一体式胸垫——每个套装都需要的叠穿件。", "es": "Crop canalé con banda integrada — la pieza de capas que todo set necesita." }
-    },
-    {
-      "slug": "long-sleeve-crop-top",
-      "cat": "bras-tops",
-      "img": "/images/new/p-lsleeve-top.webp",
-      "moq": 300,
-      "fabric": "88% Nylon / 12% Spandex, seamless",
-      "gsm": 240,
-      "sizes": "S–XL",
-      "colors": ["black", "espresso", "graphite"],
-      "features": ["seamless", "stretch4", "wicking", "quickdry"],
-      "isNew": true,
-      "name": { "en": "Long-Sleeve Crop Top", "zh": "长袖无缝短上衣", "es": "Top corto manga larga" },
-      "highlight": { "en": "Mock-neck seamless crop with thumbholes — the matching top for scrunch leggings.", "zh": "半高领无缝短上衣，拇指洞设计——蜜桃臀裤的官配上衣。", "es": "Crop sin costuras con cuello y pulgares — la top oficial del legging scrunch." }
-    },
-    {
-      "slug": "ribbed-seamless-2pc-set",
-      "cat": "sets",
-      "img": "/images/p-ribbed-set.webp",
-      "moq": 200,
-      "fabric": "90% Nylon / 10% Spandex, ribbed seamless",
-      "gsm": 240,
-      "sizes": "S–XL",
-      "colors": ["sand", "terracotta", "sage"],
-      "features": ["ribbed", "seamless", "stretch4", "highrise", "wicking"],
-      "hot": true,
-      "name": { "en": "Ribbed Seamless 2-Piece Set", "zh": "罗纹无缝两件套", "es": "Conjunto 2 piezas canalé" },
-      "highlight": { "en": "Matching ribbed long-sleeve crop + legging — the boutique-ready set with the highest perceived value.", "zh": "罗纹长袖短上衣 + 紧身裤——精品店级高感知价值套装。", "es": "Crop manga larga + legging canalé — el set de mayor valor percibido." }
-    },
-    {
-      "slug": "buttersoft-bra-legging-set",
-      "cat": "sets",
-      "img": "/images/new/p-flare-set.webp",
-      "moq": 200,
-      "fabric": "75% Nylon / 25% Spandex, double-sided brushed",
-      "gsm": 250,
-      "sizes": "XS–2XL",
-      "colors": ["blush", "sage", "black"],
-      "features": ["butter", "brushed", "highrise", "stretch4", "squat"],
-      "hot": true,
-      "name": { "en": "ButterSoft Bra + Legging Set", "zh": "ButterSoft 内衣长裤套装", "es": "Conjunto sujetador + legging ButterSoft" },
-      "highlight": { "en": "The giftable bestseller set — buttery bra and legging in coordinated dyed-to-match colors.", "zh": "礼盒级爆款套装——内衣 + 长裤，同色染整零色差。", "es": "El set regalo bestseller — sujetador y legging teñidos a juego." }
-    },
-    {
-      "slug": "seamless-scrunch-set",
-      "cat": "sets",
-      "img": "/images/new/p-scrunch-set.webp",
-      "moq": 200,
-      "fabric": "92% Nylon / 8% Spandex, seamless tube knit",
-      "gsm": 260,
-      "sizes": "S–XL",
-      "colors": ["charcoal", "black", "plum"],
-      "features": ["seamless", "scrunch", "compress", "highrise"],
-      "name": { "en": "Seamless Scrunch Bra + Legging Set", "zh": "无缝蜜桃臀套装", "es": "Conjunto scrunch sin costuras" },
-      "highlight": { "en": "Long-sleeve seamless top over scrunch leggings — the gym-set formula with viral upside.", "zh": "无缝长袖 + 蜜桃臀裤——具备病毒传播潜力的健身房套装公式。", "es": "Top sin costuras sobre legging scrunch — la fórmula viral del gym set." }
-    },
-    {
-      "slug": "tee-biker-casual-set",
-      "cat": "sets",
-      "img": "/images/new/p-tee-biker-set.webp",
-      "moq": 200,
-      "fabric": "Cotton-touch knit + nylon-spandex",
-      "gsm": 220,
-      "sizes": "XS–2XL",
-      "colors": ["graphite", "black", "white"],
-      "features": ["wicking", "stretch4", "quickdry", "highrise"],
-      "isNew": true,
-      "name": { "en": "Tee + Biker Casual Set", "zh": "休闲 T 恤短裤套装", "es": "Conjunto camiseta + biker" },
-      "highlight": { "en": "Relaxed cropped tee over biker shorts — the everyday athleisure set for lifestyle brands.", "zh": "宽松短 T + 骑行短裤——生活方式品牌的日常运动休闲套装。", "es": "Camiseta holgada sobre short biker — el set athleisure para marcas lifestyle." }
-    },
-    {
-      "slug": "seamless-ribbed-unitard",
-      "cat": "sets",
-      "img": "/images/new/p-unitard-sand.webp",
-      "moq": 200,
-      "fabric": "90% Nylon / 10% Spandex, ribbed seamless",
-      "gsm": 240,
-      "sizes": "S–XL",
-      "colors": ["sand", "black", "espresso"],
-      "features": ["ribbed", "seamless", "stretch4", "highrise"],
-      "name": { "en": "Seamless Ribbed Unitard", "zh": "无缝罗纹连体衣", "es": "Enterizo canalé sin costuras" },
-      "highlight": { "en": "One-and-done romper in ribbed seamless — a low-SKU, high-margin hero for dance and pilates.", "zh": "罗纹无缝一体式连体衣——舞蹈与普拉提高毛利低 SKU 主角。", "es": "Enterizo canalé sin costuras — héroe de margen alto para danza y pilates." }
-    },
-    {
-      "slug": "tapered-jogger",
-      "cat": "outer-jogger",
-      "img": "/images/p-jogger.webp",
-      "moq": 300,
-      "fabric": "70% Cotton / 25% Polyester / 5% Spandex French terry",
-      "gsm": 320,
-      "sizes": "XS–2XL",
-      "colors": ["graphite", "sand", "espresso"],
-      "features": ["brushed", "pockets", "highrise", "quickdry"],
-      "name": { "en": "High-Rise Tapered Jogger", "zh": "高腰锥形慢跑裤", "es": "Jogger cónico tiro alto" },
-      "highlight": { "en": "French-terry comfort with a tailored taper — extends your line beyond the studio.", "zh": "毛圈舒适 + 利落锥形——把产品线从瑜伽馆延伸到日常。", "es": "Comodidad French terry con corte cónico — extiende tu línea más allá del estudio." }
-    },
-    {
-      "slug": "wide-leg-cargo-jogger",
-      "cat": "outer-jogger",
-      "img": "/images/new/p-wideleg-jogger.webp",
-      "moq": 300,
-      "fabric": "78% Nylon / 22% Spandex, tech twill-look",
-      "gsm": 260,
-      "sizes": "XS–2XL",
-      "colors": ["black", "olive", "graphite"],
-      "features": ["pockets", "wicking", "stretch4", "quickdry"],
-      "isNew": true,
-      "name": { "en": "Wide-Leg Cargo Jogger", "zh": "阔腿工装慢跑裤", "es": "Jogger cargo de pierna ancha" },
-      "highlight": { "en": "Drapey wide-leg utility jogger — the office-appropriate activewear crossover.", "zh": "垂感阔腿工装慢跑裤——可进办公室的通勤运动跨界款。", "es": "Jogger utilitario de caída ancha — el cruce activewear apto para oficina." }
-    },
-    {
-      "slug": "half-zip-pullover",
-      "cat": "outer-jogger",
-      "img": "/images/new/p-halfzip-sage.webp",
-      "moq": 300,
-      "fabric": "72% Polyester / 21% Rayon / 7% Spandex, brushed fleece",
-      "gsm": 280,
-      "sizes": "XS–2XL",
-      "colors": ["sage", "black", "dustyblue"],
-      "features": ["brushed", "quickdry", "stretch4", "warm"],
-      "name": { "en": "Half-Zip Pullover", "zh": "半拉链抓绒卫衣", "es": "Sudadera media cremallera" },
-      "highlight": { "en": "Brushed-fleece half-zip with collar styling — the layering piece that lifts AOV.", "zh": "抓绒半拉链卫衣，翻领造型——提升客单价的叠穿件。", "es": "Media cremallera afelpada con cuello — la pieza de capas que sube el ticket." }
-    }
-  ]
+ "styles": [
+  {
+   "slug": "a23l265-naked-feel-legging",
+   "cat": "leggings",
+   "code": "A23L265",
+   "img": "/images/real/r-nakedfeel.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "black",
+    "charcoal",
+    "sage",
+    "blush"
+   ],
+   "features": [
+    "butter",
+    "squat",
+    "stretch4",
+    "highrise",
+    "opaque"
+   ],
+   "hot": true,
+   "name": {
+    "en": "Naked-Feel High-Rise Legging",
+    "zh": "裸感高腰紧身裤",
+    "es": "Legging tiro alto naked-feel"
+   },
+   "highlight": {
+    "en": "The everyday 25-inch bestseller base — matte 40D knit, zero see-through, all-day comfort.",
+    "zh": "25 英寸日常爆款底版——40D 哑光针织，零透不尴尬，全天舒适。",
+    "es": "La base bestseller de 25 pulgadas: tejido mate 40D, cero transparencia, comodidad total."
+   }
+  },
+  {
+   "slug": "a23l087-jacquard-sculpt-legging",
+   "cat": "leggings",
+   "code": "A23L087",
+   "img": "/images/real/r-jacquard.webp",
+   "moq": 200,
+   "fabric": "Jacquard nylon/spandex seamless knit",
+   "gsm": 260,
+   "sizes": "XS–XL",
+   "colors": [
+    "black",
+    "charcoal",
+    "sage",
+    "blush"
+   ],
+   "features": [
+    "compress",
+    "tummy",
+    "squat",
+    "seamless"
+   ],
+   "name": {
+    "en": "Jacquard-Knit Sculpt Legging",
+    "zh": "提花针织塑形紧身裤",
+    "es": "Legging jacquard sculpt"
+   },
+   "highlight": {
+    "en": "Raised jacquard texture that lifts and hides flaws — a top-3 reorder from US brands.",
+    "zh": "立体提花纹理，提臀遮瑕——美国客户翻单率前三。",
+    "es": "Textura jacquard en relieve que realza y disimula — top 3 en recompras de marcas de EE. UU."
+   }
+  },
+  {
+   "slug": "a23l119-camo-seamless-legging",
+   "cat": "leggings",
+   "code": "A23L119",
+   "img": "/images/real/r-camo.webp",
+   "moq": 200,
+   "fabric": "Seamless nylon/spandex, buttery brushed",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "camo",
+    "black",
+    "olive",
+    "blush"
+   ],
+   "features": [
+    "seamless",
+    "butter",
+    "squat",
+    "highrise"
+   ],
+   "name": {
+    "en": "Camo Seamless Legging + Bra",
+    "zh": "迷彩无缝紧身裤 + 文胸",
+    "es": "Legging camuflaje sin costuras + bra"
+   },
+   "highlight": {
+    "en": "Buttery camo seamless 2-piece — the pattern US buyers keep restocking.",
+    "zh": "黄油裸感迷彩无缝两件套——美国客户持续返单的花型。",
+    "es": "Conjunto camuflaje sin costuras súper suave — el estampado que EE. UU. recompra."
+   }
+  },
+  {
+   "slug": "a23l235-leopard-seamless-legging",
+   "cat": "leggings",
+   "code": "A23L235",
+   "img": "/images/real/r-leopard.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "terracotta",
+    "black",
+    "espresso",
+    "blush"
+   ],
+   "features": [
+    "seamless",
+    "tummy",
+    "stretch4",
+    "scrunch"
+   ],
+   "isNew": true,
+   "name": {
+    "en": "Leopard Print Seamless Legging",
+    "zh": "豹纹无缝紧身裤",
+    "es": "Legging leopardo sin costuras"
+   },
+   "highlight": {
+    "en": "Animal print done tastefully — seamless tummy-control waist, 4-way stretch.",
+    "zh": "高级感豹纹——无缝收腹腰头，四向高弹。",
+    "es": "Estampado animal con gusto: cintura sin costuras controladora, stretch 4D."
+   }
+  },
+  {
+   "slug": "sck006-camo-performance-legging",
+   "cat": "leggings",
+   "code": "SCK006",
+   "img": "/images/real/r-camo-utility.webp",
+   "moq": 200,
+   "fabric": "Polyester/spandex performance knit",
+   "gsm": 240,
+   "sizes": "XS–XL",
+   "colors": [
+    "sage",
+    "olive",
+    "black",
+    "graphite"
+   ],
+   "features": [
+    "pockets",
+    "wicking",
+    "quickdry",
+    "highrise"
+   ],
+   "name": {
+    "en": "Camo Performance Legging",
+    "zh": "迷彩运动紧身裤",
+    "es": "Legging deportivo camuflaje"
+   },
+   "highlight": {
+    "en": "Street-to-gym camo with practical deep pockets and a stay-put waistband.",
+    "zh": "街健两穿迷彩款，实用深口袋 + 防滑腰头。",
+    "es": "Camuflaje de calle a gimnasio con bolsillos profundos y cintura fija."
+   }
+  },
+  {
+   "slug": "tiedye-wash-legging",
+   "cat": "leggings",
+   "code": "SS-TD15",
+   "img": "/images/real/r-tiedye.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "tiedye",
+    "blush",
+    "plum",
+    "sage"
+   ],
+   "features": [
+    "stretch4",
+    "wicking",
+    "quickdry",
+    "opaque"
+   ],
+   "name": {
+    "en": "Tie-Dye Wash Legging",
+    "zh": "扎染水洗紧身裤",
+    "es": "Legging tie-dye"
+   },
+   "highlight": {
+    "en": "Hand-feel tie-dye wash — every piece unique, ready for your custom colorways.",
+    "zh": "扎染水洗工艺——每件独一无二，可按需定制配色。",
+    "es": "Lavado tie-dye: cada pieza es única, listo para tus colores personalizados."
+   }
+  },
+  {
+   "slug": "a23l297-marble-scrunch-legging",
+   "cat": "leggings",
+   "code": "A23L297",
+   "img": "/images/real/r-marble.webp",
+   "moq": 200,
+   "fabric": "Seamless nylon/spandex, marl yarn",
+   "gsm": 250,
+   "sizes": "XS–XL",
+   "colors": [
+    "charcoal",
+    "graphite",
+    "navy",
+    "blush"
+   ],
+   "features": [
+    "scrunch",
+    "seamless",
+    "squat",
+    "highrise"
+   ],
+   "hot": true,
+   "name": {
+    "en": "Marble Scrunch Seamless Legging",
+    "zh": "大理石纹蜜桃臀无缝紧身裤",
+    "es": "Legging mármol scrunch sin costuras"
+   },
+   "highlight": {
+    "en": "The scrunch-butt silhouette that dominated 2025 US charts — 10 colorways in stock yarn.",
+    "zh": "2025 年霸榜美国的蜜桃臀版型——10 色纱线现货。",
+    "es": "El scrunch que dominó 2025 en EE. UU. — 10 colores con hilo en stock."
+   }
+  },
+  {
+   "slug": "a23l018-ribbed-seamless-legging",
+   "cat": "leggings",
+   "code": "A23L018",
+   "img": "/images/real/r-ribbed.webp",
+   "moq": 200,
+   "fabric": "Ribbed nylon/spandex seamless",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "blush",
+    "sand",
+    "sage",
+    "black"
+   ],
+   "features": [
+    "ribbed",
+    "seamless",
+    "compress",
+    "highrise"
+   ],
+   "name": {
+    "en": "Ribbed Seamless Legging",
+    "zh": "罗纹无缝紧身裤",
+    "es": "Legging canalé sin costuras"
+   },
+   "highlight": {
+    "en": "Fine-rib seamless knit with a flattering compression hand — pairs with bra A23B017.",
+    "zh": "细罗纹无缝织法，微压塑形手感——可搭配文胸 A23B017 成套。",
+    "es": "Canalé fino sin costuras con compresión favorecedora — combina con bra A23B017."
+   }
+  },
+  {
+   "slug": "a23l234-textured-knit-legging",
+   "cat": "leggings",
+   "code": "A23L234",
+   "img": "/images/real/r-textured.webp",
+   "moq": 200,
+   "fabric": "Textured nylon/spandex seamless knit",
+   "gsm": 250,
+   "sizes": "XS–XL",
+   "colors": [
+    "olive",
+    "black",
+    "mocha",
+    "sage"
+   ],
+   "features": [
+    "seamless",
+    "compress",
+    "tummy",
+    "squat"
+   ],
+   "name": {
+    "en": "Textured-Knit Contour Legging",
+    "zh": "肌理针织塑形紧身裤",
+    "es": "Legging texturizado contour"
+   },
+   "highlight": {
+    "en": "3D dot-texture knit that masks cellulite — the detail-driven style boutiques ask for by name.",
+    "zh": "3D 点状肌理针织，视觉修饰——精品店点名要的细节款。",
+    "es": "Tejido 3D que disimula — el estilo que las boutiques piden por nombre."
+   }
+  },
+  {
+   "slug": "a23lt248-crossover-waist-legging",
+   "cat": "leggings",
+   "code": "A23LT248",
+   "img": "/images/real/r-crossover.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "olive",
+    "black",
+    "espresso",
+    "blush"
+   ],
+   "features": [
+    "tummy",
+    "highrise",
+    "scrunch",
+    "squat"
+   ],
+   "hot": true,
+   "name": {
+    "en": "Crossover-Waist Contour Legging",
+    "zh": "交叉腰塑形紧身裤",
+    "es": "Legging cintura cruzada"
+   },
+   "highlight": {
+    "en": "V-cross waistband that snatches the waist — TikTok's favorite waistline, ready to brand.",
+    "zh": "V 型交叉腰，收腰显瘦——TikTok 爆款腰型，可贴牌。",
+    "es": "Cintura cruzada en V que estiliza — la favorita de TikTok, lista para tu marca."
+   }
+  },
+  {
+   "slug": "ss-xs01-scrunch-lift-legging",
+   "cat": "leggings",
+   "code": "SS-XS01",
+   "img": "/images/real/r-pink-scrunch.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "blush",
+    "black",
+    "graphite",
+    "plum"
+   ],
+   "features": [
+    "scrunch",
+    "compress",
+    "squat",
+    "highrise"
+   ],
+   "name": {
+    "en": "Scrunch-Lift Contour Legging",
+    "zh": "蜜桃提臀塑形紧身裤",
+    "es": "Legging scrunch lift"
+   },
+   "highlight": {
+    "en": "Heart-shaped scrunch seam + contour shading — engineered for the fitting-room mirror test.",
+    "zh": "心形提臀缝线 + 阴影修容剪裁——专为试衣镜效果设计。",
+    "es": "Costura scrunch en corazón + shading de contorno — diseñado para el espejo del probador."
+   }
+  },
+  {
+   "slug": "a23l090-liquid-shine-legging",
+   "cat": "leggings",
+   "code": "A23L090",
+   "img": "/images/real/r-shine.webp",
+   "moq": 200,
+   "fabric": "Nylon/spandex shine knit",
+   "gsm": 240,
+   "sizes": "XS–XL",
+   "colors": [
+    "navy",
+    "black",
+    "plum",
+    "espresso"
+   ],
+   "features": [
+    "highrise",
+    "stretch4",
+    "wicking",
+    "opaque"
+   ],
+   "isNew": true,
+   "name": {
+    "en": "Liquid-Shine High-Rise Legging",
+    "zh": "流光高腰紧身裤",
+    "es": "Legging brillante tiro alto"
+   },
+   "highlight": {
+    "en": "Subtle liquid sheen for studio-to-street looks — the '亮光丝' knit European brands love.",
+    "zh": "细腻流光质感，馆内街拍两穿——欧洲品牌青睐的“亮光丝”织法。",
+    "es": "Brillo sutil de estudio a calle — el tejido '亮光丝' que aman las marcas europeas."
+   }
+  },
+  {
+   "slug": "crossover-flare-pant-31",
+   "cat": "pants",
+   "code": "SS-FL31",
+   "img": "/images/p-flare-navy.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL · 4 inseams",
+   "colors": [
+    "navy",
+    "black",
+    "espresso",
+    "sage"
+   ],
+   "features": [
+    "tummy",
+    "highrise",
+    "butter",
+    "stretch4"
+   ],
+   "hot": true,
+   "name": {
+    "en": "Crossover Flare Pant 31\"",
+    "zh": "交叉腰喇叭裤 31\"",
+    "es": "Pantalón flare cruzado 31\""
+   },
+   "highlight": {
+    "en": "The crossover-waist flare that owned 2025 — 4 inseam options, brushed or sleek hand.",
+    "zh": "2025 年统治市场的交叉腰喇叭裤——4 种内长可选，磨毛或光滑手感。",
+    "es": "El flare de cintura cruzada que dominó 2025 — 4 largos interior, tacto brush o liso."
+   }
+  },
+  {
+   "slug": "mini-flare-scrunch-legging-29",
+   "cat": "pants",
+   "code": "SS-MF29",
+   "img": "/images/new/p-miniflare-black.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "black",
+    "charcoal",
+    "mocha",
+    "sage"
+   ],
+   "features": [
+    "scrunch",
+    "highrise",
+    "squat",
+    "butter"
+   ],
+   "name": {
+    "en": "Mini-Flare Scrunch Legging 29\"",
+    "zh": "微喇蜜桃臀紧身裤 29\"",
+    "es": "Legging mini-flare scrunch 29\""
+   },
+   "highlight": {
+    "en": "29-inch mini flare with scrunch lift — the gym-to-brunch silhouette of the season.",
+    "zh": "29 英寸微喇 + 蜜桃提臀——本季健身到早午餐通吃版型。",
+    "es": "Mini flare 29\" con scrunch — la silueta de la temporada."
+   }
+  },
+  {
+   "slug": "bootcut-yoga-pant-32",
+   "cat": "pants",
+   "code": "SS-BC32",
+   "img": "/images/new/p-bootcut-espresso.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "espresso",
+    "black",
+    "navy",
+    "sand"
+   ],
+   "features": [
+    "highrise",
+    "tummy",
+    "opaque",
+    "stretch4"
+   ],
+   "name": {
+    "en": "Bootcut Yoga Pant 32\"",
+    "zh": "微喇瑜伽长裤 32\"",
+    "es": "Pantalón yoga bootcut 32\""
+   },
+   "highlight": {
+    "en": "The classic 32-inch bootcut, re-engineered with a sculpting waistband and matte knit.",
+    "zh": "经典 32 英寸微喇，升级塑形腰头 + 哑光针织。",
+    "es": "El bootcut clásico de 32\" rediseñado con cintura esculpidora y tejido mate."
+   }
+  },
+  {
+   "slug": "wide-leg-flow-pant",
+   "cat": "pants",
+   "code": "SS-WL30",
+   "img": "/images/new/p-wideleg-sage.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "sage",
+    "sand",
+    "black",
+    "dustyblue"
+   ],
+   "features": [
+    "quickdry",
+    "wicking",
+    "highrise",
+    "stretch4"
+   ],
+   "name": {
+    "en": "Wide-Leg Flow Pant",
+    "zh": "阔腿裤",
+    "es": "Pantalón wide-leg"
+   },
+   "highlight": {
+    "en": "Relaxed wide-leg with a flat support waist — lounge lines and resort capsules start here.",
+    "zh": "宽松阔腿 + 平整支撑腰头——家居线、度假系列的起点。",
+    "es": "Wide-leg relajado con cintura plana de soporte — base de líneas lounge y resort."
+   }
+  },
+  {
+   "slug": "a24b029-ribbed-biker-short",
+   "cat": "shorts",
+   "code": "A24B029",
+   "img": "/images/real/r-biker6.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "sand",
+    "charcoal",
+    "blush",
+    "olive"
+   ],
+   "features": [
+    "ribbed",
+    "squat",
+    "highrise",
+    "opaque"
+   ],
+   "name": {
+    "en": "Ribbed Biker Short 6\" + Bra",
+    "zh": "罗纹骑行短裤 6\" + 文胸",
+    "es": "Short biker canalé 6\" + bra"
+   },
+   "highlight": {
+    "en": "6-inch ribbed biker set in a 6-color core palette — a proven volume driver for DTC brands.",
+    "zh": "6 英寸罗纹骑行套装，6 色基础盘——DTC 品牌走量利器。",
+    "es": "Set biker canalé 6\" en 6 colores base — probado para volumen DTC."
+   }
+  },
+  {
+   "slug": "a24s034-high-rise-biker-short",
+   "cat": "shorts",
+   "code": "A24S034",
+   "img": "/images/real/r-biker8.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "graphite",
+    "black",
+    "sand",
+    "blush"
+   ],
+   "features": [
+    "highrise",
+    "tummy",
+    "squat",
+    "wicking"
+   ],
+   "name": {
+    "en": "High-Rise Biker Short 7\"",
+    "zh": "高腰骑行短裤 7\"",
+    "es": "Short biker tiro alto 7\""
+   },
+   "highlight": {
+    "en": "7-inch high-rise biker with a smoothing waist — the legging-buyer's summer swap.",
+    "zh": "7 英寸高腰骑行裤，平滑收腹——紧身裤客户的夏季替换款。",
+    "es": "Biker 7\" tiro alto con cintura moldeadora — el cambio de verano del comprador de leggings."
+   }
+  },
+  {
+   "slug": "yj2255-scrunch-boost-short",
+   "cat": "shorts",
+   "code": "YJ2255",
+   "img": "/images/real/r-scrunch-short.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "dustyblue",
+    "black",
+    "blush",
+    "graphite"
+   ],
+   "features": [
+    "scrunch",
+    "squat",
+    "compress",
+    "wicking"
+   ],
+   "hot": true,
+   "name": {
+    "en": "Scrunch Boost Short",
+    "zh": "蜜桃提臀短裤",
+    "es": "Short scrunch boost"
+   },
+   "highlight": {
+    "en": "Scrunch-seam boost short with contour shading — engineered shape, squat-proof knit.",
+    "zh": "蜜桃提臀短裤，阴影修容剪裁——立体塑形，深蹲不透。",
+    "es": "Short scrunch con shading de contorno — forma esculpida, tejido squat-proof."
+   }
+  },
+  {
+   "slug": "a23s072-print-run-short",
+   "cat": "shorts",
+   "code": "A23S072",
+   "img": "/images/real/r-runshort.webp",
+   "moq": 200,
+   "fabric": "Polyester/spandex woven-stretch, sublimation-ready",
+   "gsm": 160,
+   "sizes": "S–XXL",
+   "colors": [
+    "abstract",
+    "tiedye",
+    "black",
+    "navy"
+   ],
+   "features": [
+    "quickdry",
+    "wicking",
+    "lined",
+    "stretch4"
+   ],
+   "name": {
+    "en": "Print Running Short",
+    "zh": "印花运动短裤",
+    "es": "Short deportivo estampado"
+   },
+   "highlight": {
+    "en": "Featherweight printed run short — full custom prints from 200 pcs with your artwork.",
+    "zh": "轻量印花运动短裤——200 件起可用您的图案全定制。",
+    "es": "Short de running ligero estampado — impresión total personalizada desde 200 pzs con tu arte."
+   }
+  },
+  {
+   "slug": "a23b236-v-neck-rib-bra",
+   "cat": "bras-tops",
+   "code": "A23B236",
+   "img": "/images/real/r-vbra.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "S–XXL",
+   "colors": [
+    "sage",
+    "black",
+    "blush",
+    "espresso"
+   ],
+   "features": [
+    "ribbed",
+    "wicking",
+    "quickdry"
+   ],
+   "name": {
+    "en": "V-Neck Ribbed Sports Bra",
+    "zh": "V 领罗纹运动文胸",
+    "es": "Sujetador canalé escote V"
+   },
+   "highlight": {
+    "en": "Plunge-V ribbed bra with removable pads — designed to match legging A23L237.",
+    "zh": "深 V 罗纹文胸，可拆胸垫——与紧身裤 A23L237 成套设计。",
+    "es": "Bra canalé escote V con copas removibles — combina con legging A23L237."
+   }
+  },
+  {
+   "slug": "hm001-ombre-seamless-bra",
+   "cat": "bras-tops",
+   "code": "HM001",
+   "img": "/images/real/r-gradient-bra.webp",
+   "moq": 200,
+   "fabric": "Space-dye nylon/spandex seamless",
+   "gsm": 230,
+   "sizes": "S–XL",
+   "colors": [
+    "dustyblue",
+    "sage",
+    "blush",
+    "charcoal"
+   ],
+   "features": [
+    "seamless",
+    "wicking",
+    "stretch4"
+   ],
+   "isNew": true,
+   "name": {
+    "en": "Ombre Seamless Sports Bra",
+    "zh": "渐变无缝运动文胸",
+    "es": "Sujetador degradado sin costuras"
+   },
+   "highlight": {
+    "en": "Space-dye ombre knit, medium support — an instant add-on that lifts AOV.",
+    "zh": "段染渐变针织，中强度支撑——提升客单价的即时加购款。",
+    "es": "Tejido degradado space-dye, soporte medio — un add-on que sube el ticket."
+   }
+  },
+  {
+   "slug": "ss-xs02-strappy-crop-bra",
+   "cat": "bras-tops",
+   "code": "SS-XS02",
+   "img": "/images/real/r-strappy-bra.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "S–XL",
+   "colors": [
+    "black",
+    "espresso",
+    "blush",
+    "plum"
+   ],
+   "features": [
+    "wicking",
+    "quickdry",
+    "stretch4"
+   ],
+   "name": {
+    "en": "Strappy-Back Crop Bra",
+    "zh": "细带美背运动文胸",
+    "es": "Bra crop tiras en espalda"
+   },
+   "highlight": {
+    "en": "Layered strappy back, low-impact hold — the studio-to-street top of the season.",
+    "zh": "多层细带美背，低强度支撑——本季馆内街拍两穿爆款。",
+    "es": "Espalda de tiras superpuestas, soporte ligero — el top de la temporada."
+   }
+  },
+  {
+   "slug": "a23lt304-ribbed-strappy-tank",
+   "cat": "bras-tops",
+   "code": "A23LT304",
+   "img": "/images/real/r-tank.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "S–XL",
+   "colors": [
+    "sand",
+    "white",
+    "black",
+    "sage"
+   ],
+   "features": [
+    "ribbed",
+    "wicking",
+    "quickdry",
+    "stretch4"
+   ],
+   "name": {
+    "en": "Ribbed Strappy-Back Tank",
+    "zh": "罗纹美背背心",
+    "es": "Top canalé tiras"
+   },
+   "highlight": {
+    "en": "Built-in-bra ribbed tank with a strappy back — one piece, whole outfit.",
+    "zh": "自带胸垫罗纹背心，美背设计——一件成装。",
+    "es": "Top canalé con bra integrado y espalda de tiras — una pieza, todo el outfit."
+   }
+  },
+  {
+   "slug": "a24b033-longline-rib-bra",
+   "cat": "bras-tops",
+   "code": "A24B033",
+   "img": "/images/real/r-longline.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "S–XL",
+   "colors": [
+    "graphite",
+    "black",
+    "sand",
+    "blush"
+   ],
+   "features": [
+    "ribbed",
+    "compress",
+    "wicking"
+   ],
+   "name": {
+    "en": "Longline Ribbed Bra",
+    "zh": "长款罗纹运动文胸",
+    "es": "Bra canalé largo"
+   },
+   "highlight": {
+    "en": "Longline rib bra with a smoothing band — medium support, maximum pairability.",
+    "zh": "长款罗纹文胸，平滑下摆——中强度支撑，百搭成套。",
+    "es": "Bra canalé largo con banda moldeadora — soporte medio, combina con todo."
+   }
+  },
+  {
+   "slug": "a23b111-ribbed-knit-set",
+   "cat": "sets",
+   "code": "A23B111",
+   "img": "/images/real/r-ribbed-set.webp",
+   "moq": 200,
+   "fabric": "Ribbed nylon/spandex seamless",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "blush",
+    "sand",
+    "black",
+    "sage"
+   ],
+   "features": [
+    "ribbed",
+    "seamless",
+    "highrise",
+    "squat"
+   ],
+   "hot": true,
+   "name": {
+    "en": "Ribbed-Knit 2-Pc Set",
+    "zh": "罗纹针织两件套",
+    "es": "Conjunto canalé 2 pzas"
+   },
+   "highlight": {
+    "en": "Matching ribbed bra + legging set — the giftable bundle your Q4 needs.",
+    "zh": "罗纹文胸 + 紧身裤成套——Q4 礼品套装首选。",
+    "es": "Set canalé bra + legging — el bundle de regalo que tu Q4 necesita."
+   }
+  },
+  {
+   "slug": "a23l228-buttersoft-seamless-set",
+   "cat": "sets",
+   "code": "A23L228",
+   "img": "/images/real/r-butter-set.webp",
+   "moq": 200,
+   "fabric": "Seamless nylon/spandex, buttery brushed",
+   "gsm": 250,
+   "sizes": "XS–XL",
+   "colors": [
+    "blush",
+    "olive",
+    "plum",
+    "sand",
+    "black"
+   ],
+   "features": [
+    "seamless",
+    "butter",
+    "squat",
+    "highrise"
+   ],
+   "hot": true,
+   "name": {
+    "en": "ButterSoft Seamless 2-Pc Set",
+    "zh": "黄油裸感无缝两件套",
+    "es": "Conjunto seamless ButterSoft"
+   },
+   "highlight": {
+    "en": "7-colorway butter-soft set — our most requested silhouette from Amazon sellers.",
+    "zh": "7 色黄油裸感套装——亚马逊卖家询价最多的版型。",
+    "es": "Set ultra suave en 7 colores — la silueta más pedida por vendedores de Amazon."
+   }
+  },
+  {
+   "slug": "a23b105-aqua-seamless-set",
+   "cat": "sets",
+   "code": "A23B105",
+   "img": "/images/real/r-aqua-set.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "sage",
+    "blush",
+    "graphite",
+    "navy"
+   ],
+   "features": [
+    "seamless",
+    "compress",
+    "wicking",
+    "squat"
+   ],
+   "name": {
+    "en": "Vital Seamless 2-Pc Set",
+    "zh": "活力无缝两件套",
+    "es": "Conjunto seamless Vital"
+   },
+   "highlight": {
+    "en": "Vivid-color seamless set with contour panels — built for loud brands.",
+    "zh": "高饱和度无缝套装，修容剪裁——为张扬品牌而生。",
+    "es": "Set seamless de colores vivos con paneles de contorno — para marcas atrevidas."
+   }
+  },
+  {
+   "slug": "a23l088-faux-layer-set",
+   "cat": "sets",
+   "code": "A23L088",
+   "img": "/images/real/r-faux2-set.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "sage",
+    "black",
+    "sand",
+    "blush"
+   ],
+   "features": [
+    "seamless",
+    "wicking",
+    "quickdry",
+    "stretch4"
+   ],
+   "name": {
+    "en": "Faux-Layer Seamless Set",
+    "zh": "假两件无缝套装",
+    "es": "Conjunto falsa dos piezas"
+   },
+   "highlight": {
+    "en": "Built-in-layer look without the bulk — one of our most reordered gym-bag sets.",
+    "zh": "假两件层次感，无臃肿——翻单率最高的健身套装之一。",
+    "es": "Look de capas integradas sin volumen — de los sets más recomprados."
+   }
+  },
+  {
+   "slug": "a23l311-ls-crop-2pc-set",
+   "cat": "sets",
+   "code": "A23L311",
+   "img": "/images/real/r-lsleeve.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "sand",
+    "white",
+    "black",
+    "sage"
+   ],
+   "features": [
+    "highrise",
+    "wicking",
+    "opaque",
+    "stretch4"
+   ],
+   "name": {
+    "en": "Long-Sleeve Crop 2-Pc Set",
+    "zh": "长袖短款两件套",
+    "es": "Conjunto crop manga larga"
+   },
+   "highlight": {
+    "en": "Long-sleeve crop top + high-rise legging — the covered-up bestseller for cooler markets.",
+    "zh": "长袖短上衣 + 高腰紧身裤——凉季市场畅销款。",
+    "es": "Top crop manga larga + legging tiro alto — el bestseller de climas frescos."
+   }
+  },
+  {
+   "slug": "a24t031-ribbed-crop-set",
+   "cat": "sets",
+   "code": "A24T031",
+   "img": "/images/real/r-crop-set.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "sand",
+    "graphite",
+    "blush",
+    "olive"
+   ],
+   "features": [
+    "ribbed",
+    "squat",
+    "quickdry",
+    "highrise"
+   ],
+   "name": {
+    "en": "Ribbed Crop & Short Set",
+    "zh": "罗纹短上衣 + 短裤套装",
+    "es": "Conjunto crop canalé & short"
+   },
+   "highlight": {
+    "en": "Ribbed crop top with matching biker short — summer capsules in a 6-color palette.",
+    "zh": "罗纹短上衣 + 配套骑行短裤——夏季胶囊系列，6 色盘。",
+    "es": "Crop canalé con biker a juego — cápsula de verano en 6 colores."
+   }
+  },
+  {
+   "slug": "a24d036-everyday-romper",
+   "cat": "unitards",
+   "code": "A24D036",
+   "img": "/images/real/r-romper-khaki.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "sand",
+    "graphite",
+    "blush",
+    "black"
+   ],
+   "features": [
+    "quickdry",
+    "wicking",
+    "stretch4",
+    "lined"
+   ],
+   "hot": true,
+   "name": {
+    "en": "Everyday Built-In-Bra Romper",
+    "zh": "自带胸垫连体短裤",
+    "es": "Romper con bra integrado"
+   },
+   "highlight": {
+    "en": "One-and-done romper with a built-in bra — 2025's fastest-growing activewear category.",
+    "zh": "一件式连体短裤，自带胸垫——2025 年增长最快的品类。",
+    "es": "Romper todo-en-uno con bra integrado — la categoría de mayor crecimiento 2025."
+   }
+  },
+  {
+   "slug": "a23l107-sculpt-romper",
+   "cat": "unitards",
+   "code": "A23L107",
+   "img": "/images/real/r-romper-blue.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "dustyblue",
+    "black",
+    "plum",
+    "sage"
+   ],
+   "features": [
+    "compress",
+    "scrunch",
+    "quickdry"
+   ],
+   "name": {
+    "en": "Sculpt Short Romper",
+    "zh": "塑形连体短裤",
+    "es": "Romper corto sculpt"
+   },
+   "highlight": {
+    "en": "Sculpting short romper with a crossover back — dance, pilates and beyond.",
+    "zh": "塑形连体短裤，交叉美背——舞蹈、普拉提皆宜。",
+    "es": "Romper escultor con espalda cruzada — danza, pilates y más."
+   }
+  },
+  {
+   "slug": "a24j037-sleeveless-jumpsuit",
+   "cat": "unitards",
+   "code": "A24J037",
+   "img": "/images/real/r-jumpsuit-olive.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "olive",
+    "black",
+    "espresso",
+    "sand"
+   ],
+   "features": [
+    "butter",
+    "stretch4",
+    "wicking",
+    "opaque"
+   ],
+   "name": {
+    "en": "Sleeveless All-Day Jumpsuit",
+    "zh": "无袖全天连体裤",
+    "es": "Mono sin mangas todo el día"
+   },
+   "highlight": {
+    "en": "Buttery sleeveless jumpsuit — one pattern, three lengths, infinite private-label colorways.",
+    "zh": "黄油裸感无袖连体裤——一个版型，三种长度，贴牌配色无限。",
+    "es": "Mono sin mangas ultra suave — un patrón, tres largos, infinitos colores."
+   }
+  },
+  {
+   "slug": "a23j204-tiedye-romper",
+   "cat": "unitards",
+   "code": "A23J204",
+   "img": "/images/real/r-romper-tiedye.webp",
+   "moq": 200,
+   "fabric": "80% Nylon / 20% Spandex (custom blends available)",
+   "gsm": 230,
+   "sizes": "XS–XL",
+   "colors": [
+    "plum",
+    "tiedye",
+    "black",
+    "sage"
+   ],
+   "features": [
+    "scrunch",
+    "quickdry",
+    "stretch4",
+    "lined"
+   ],
+   "isNew": true,
+   "name": {
+    "en": "Tie-Dye Scrunch Romper",
+    "zh": "扎染蜜桃臀连体短裤",
+    "es": "Romper tie-dye scrunch"
+   },
+   "highlight": {
+    "en": "Hand-tie-dye romper with scrunch lift — every unit one of a kind, MOQ 200.",
+    "zh": "手工扎染连体短裤 + 蜜桃提臀——每件独一无二，200 件起订。",
+    "es": "Romper tie-dye artesanal con scrunch — cada pieza única, MOQ 200."
+   }
+  },
+  {
+   "slug": "j10-zip-track-jacket",
+   "cat": "outer-jogger",
+   "code": "J10",
+   "img": "/images/real/r-jacket-grey.webp",
+   "moq": 200,
+   "fabric": "Brushed polyester/spandex interlock",
+   "gsm": 280,
+   "sizes": "S–XXL",
+   "colors": [
+    "black",
+    "graphite",
+    "navy",
+    "sage"
+   ],
+   "features": [
+    "warm",
+    "quickdry",
+    "stretch4"
+   ],
+   "name": {
+    "en": "Zip-Up Track Jacket",
+    "zh": "拉链运动外套",
+    "es": "Chaqueta deportiva con zipper"
+   },
+   "highlight": {
+    "en": "Full-zip track jacket with thumbholes — the layer that completes every set story.",
+    "zh": "全拉链运动外套，拇指洞设计——让每个套装系列完整的一层。",
+    "es": "Chaqueta full-zip con pasapulgares — la capa que completa cada conjunto."
+   }
+  },
+  {
+   "slug": "j16-colorblock-track-jacket",
+   "cat": "outer-jogger",
+   "code": "J16",
+   "img": "/images/real/r-jacket-navy.webp",
+   "moq": 200,
+   "fabric": "Brushed polyester/spandex interlock",
+   "gsm": 280,
+   "sizes": "S–XXL",
+   "colors": [
+    "terracotta",
+    "navy",
+    "plum",
+    "black"
+   ],
+   "features": [
+    "warm",
+    "quickdry",
+    "stretch4"
+   ],
+   "isNew": true,
+   "name": {
+    "en": "Color Zip Track Jacket",
+    "zh": "亮色拉链运动外套",
+    "es": "Chaqueta deportiva color"
+   },
+   "highlight": {
+    "en": "Color-forward zip jacket in mustard, navy & lavender — capsule drops ready.",
+    "zh": "姜黄、藏青、薰衣草等亮色拉链外套——胶囊系列即订即产。",
+    "es": "Chaqueta zipper en mostaza, navy y lavanda — cápsulas listas para producir."
+   }
+  }
+ ]
 }

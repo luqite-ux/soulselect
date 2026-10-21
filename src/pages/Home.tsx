@@ -10,51 +10,62 @@ export function HomePage({ lang }: { lang: Lang }) {
 
   return (
     <>
-      {/* HERO */}
-      <section className="relative overflow-hidden bg-ink grain">
-        <div className="absolute inset-0">
-          <img
-            src="/images/hero.webp"
-            alt="SoulSelect premium yoga apparel collection"
-            className="h-full w-full object-cover opacity-40"
-            fetchPriority="high"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0b1220] via-[#0b1220]/80 to-[#0b1220]/30" />
-          <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b1220] to-transparent" />
-        </div>
-
-        <div className="relative mx-auto max-w-7xl px-4 pb-16 pt-32 sm:px-6 lg:px-8 lg:pb-24 lg:pt-40">
-          <p className="fade-up mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-white/80">
-            <span className="h-1.5 w-1.5 rounded-full bg-sunset" />
-            {t.eyebrow}
-          </p>
-          <h1 className="fade-up font-display text-4xl font-semibold leading-[1.08] text-white sm:text-5xl lg:text-6xl">
-            {t.titleA}
-            <br />
-            <span className="text-sunset">{t.titleB}</span>
-          </h1>
-          <p className="fade-up mt-6 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg">{t.sub}</p>
-          <div className="fade-up mt-8 flex flex-wrap items-center gap-4">
-            <a href={hrefFor(lang, "contact")} className="rounded-full bg-sunset px-7 py-3.5 text-sm font-semibold text-white shadow-xl shadow-orange-950/40 transition hover:brightness-110">
-              {t.ctaPrimary}
-            </a>
-            <a href={hrefFor(lang, "products")} className="rounded-full border border-white/25 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-white/10">
-              {t.ctaSecondary}
-            </a>
-          </div>
-          <p className="fade-up mt-8 border-l-2 border-sunset pl-4 font-display text-lg italic text-white/70">{t.motto}</p>
-
-          <dl className="fade-up mt-14 grid grid-cols-2 gap-6 border-t border-white/10 pt-8 sm:grid-cols-4">
-            {t.stats.map((s) => (
-              <div key={s.label}>
-                <dd className="font-display text-3xl font-semibold text-white sm:text-4xl">{s.value}</dd>
-                <dd className="mt-1 text-xs uppercase tracking-wider text-white/55">{s.label}</dd>
+      {/* HERO — editorial split */}
+      <section className="paper relative overflow-hidden">
+        <div className="mx-auto max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pb-24 lg:pt-36">
+          <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+            <div>
+              <p className="fade-up mb-6 inline-flex items-center gap-2 rounded-full border border-ink/10 bg-white px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-ink/70 shadow-sm">
+                <span className="h-1.5 w-1.5 rounded-full bg-sunset" />
+                {t.eyebrow}
+              </p>
+              <h1 className="fade-up font-display text-4xl font-semibold leading-[1.08] text-ink sm:text-5xl lg:text-[3.4rem]">
+                {t.titleA}
+                <br />
+                <span className="text-sunset">{t.titleB}</span>
+              </h1>
+              <p className="fade-up mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">{t.sub}</p>
+              <div className="fade-up mt-8 flex flex-wrap items-center gap-4">
+                <a href={hrefFor(lang, "contact")} className="rounded-full bg-ink px-7 py-3.5 text-sm font-semibold text-white shadow-xl shadow-ink/20 transition hover:bg-brand-deep">
+                  {t.ctaPrimary}
+                </a>
+                <a href={hrefFor(lang, "products")} className="rounded-full border border-ink/15 bg-white px-7 py-3.5 text-sm font-semibold text-ink transition hover:border-ink/40">
+                  {t.ctaSecondary}
+                </a>
               </div>
-            ))}
-          </dl>
+              <p className="fade-up mt-8 border-l-2 border-sunset pl-4 font-display text-lg italic text-ink/70">{t.motto}</p>
+
+              <dl className="fade-up mt-12 grid grid-cols-2 gap-6 border-t border-border pt-8 sm:grid-cols-4">
+                {t.stats.map((s) => (
+                  <div key={s.label}>
+                    <dd className="font-display text-3xl font-semibold text-ink sm:text-4xl">{s.value}</dd>
+                    <dd className="mt-1 text-[11px] uppercase tracking-wider text-muted-foreground">{s.label}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+
+            <div className="fade-up relative mx-auto w-full max-w-md lg:max-w-none">
+              <div className="absolute -inset-3 rotate-2 rounded-[2rem] border border-sunset/25" aria-hidden="true" />
+              <div className="absolute -inset-3 -rotate-1 rounded-[2rem] border border-ink/10" aria-hidden="true" />
+              <div className="relative overflow-hidden rounded-[1.75rem] shadow-2xl shadow-ink/20">
+                <img
+                  src="/images/real/r-hero.webp"
+                  alt="SoulSelect seamless activewear set — factory direct"
+                  className="aspect-[4/5] w-full object-cover"
+                  fetchPriority="high"
+                />
+              </div>
+              <div className="absolute -bottom-6 -left-4 rounded-2xl border border-border bg-white p-5 shadow-xl sm:-left-8">
+                <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">OEM / ODM</p>
+                <p className="mt-1 font-display text-2xl font-semibold text-ink">MOQ 200</p>
+                <p className="text-xs text-muted-foreground">48h sampling · OEKO-TEX fabrics</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="relative border-t border-white/10 bg-black/30 py-4">
+        <div className="border-t border-ink/10 bg-ink py-4">
           <div className="overflow-hidden">
             <div className="marquee-track flex w-max items-center gap-12 whitespace-nowrap px-6">
               {[...d.trustCerts, ...d.trustCerts].map((c, i) => (
@@ -78,7 +89,7 @@ export function HomePage({ lang }: { lang: Lang }) {
             <h2 className="mt-3 font-display text-3xl font-semibold text-ink sm:text-4xl">{t.catsTitle}</h2>
             <p className="mt-4 text-muted-foreground">{t.catsSub}</p>
           </div>
-          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
             {CATEGORY_KEYS.map((c) => (
               <a
                 key={c}

@@ -176,7 +176,7 @@ export function ProductDetailPage({ lang, slug }: { lang: Lang; slug: string }) 
               <div className="grid grid-cols-1 divide-y divide-border sm:grid-cols-2 sm:divide-x sm:divide-y-0">
                 <div className="p-5">
                   <dt className="text-xs uppercase tracking-wide text-muted-foreground">{t.sku}</dt>
-                  <dd className="mt-1 font-mono text-sm font-semibold text-ink">{s.slug.toUpperCase()}</dd>
+                  <dd className="mt-1 font-mono text-sm font-semibold text-ink">{s.code}</dd>
                 </div>
                 <div className="p-5">
                   <dt className="text-xs uppercase tracking-wide text-muted-foreground">{t.minOrder}</dt>

@@ -1,20 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { DICTS, LANGS, type Lang } from "@/i18n";
 import { hrefFor, samePageOtherLang, type PageKey } from "@/router";
 
 export function Header({ lang, page }: { lang: Lang; page: PageKey }) {
   const t = DICTS[lang];
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  // pages without a dark hero band need a solid header from the start
-  const solid = page !== "home";
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   const links: { page: PageKey; label: string }[] = [
     { page: "products", label: t.nav.products },
@@ -25,11 +15,7 @@ export function Header({ lang, page }: { lang: Lang; page: PageKey }) {
   ];
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        solid || scrolled ? "bg-[#0b1220]/95 shadow-lg shadow-black/10 backdrop-blur-md" : "bg-transparent"
-      }`}
-    >
+    <header className="fixed inset-x-0 top-0 z-50 bg-[#0d1420]/95 shadow-lg shadow-black/10 backdrop-blur-md transition-all duration-300">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href={hrefFor(lang, "home")} className="flex items-center gap-3" aria-label="SoulSelect home">
           <img src="/logo.png" alt="SoulSelect Athletic Solutions" className="h-10 w-10 rounded-full bg-white object-contain p-0.5" />
