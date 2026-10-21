@@ -1,4 +1,5 @@
 import { DICTS, type Lang } from "@/i18n";
+import { hrefFor } from "@/router";
 
 export function Footer({ lang }: { lang: Lang }) {
   const t = DICTS[lang];
@@ -17,17 +18,17 @@ export function Footer({ lang }: { lang: Lang }) {
               </div>
             </div>
             <p className="mt-5 max-w-md text-sm leading-relaxed text-white/60">{t.footer.about}</p>
-            <p className="mt-4 font-display text-sm italic text-white/45">“{t.why.principle}”</p>
+            <p className="mt-4 font-display text-sm italic text-white/45">“{DICTS[lang].about.motto}”</p>
           </div>
 
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white/50">{t.footer.company}</h3>
+            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white/50">{t.footer.navTitle}</h3>
             <ul className="mt-4 space-y-2.5 text-sm">
-              <li><a href="#factory" className="text-white/75 hover:text-white">{t.footer.links.factory}</a></li>
-              <li><a href="#process" className="text-white/75 hover:text-white">{t.footer.links.process}</a></li>
-              <li><a href="#why" className="text-white/75 hover:text-white">{t.footer.links.why}</a></li>
-              <li><a href="#faq" className="text-white/75 hover:text-white">{t.footer.links.faq}</a></li>
-              <li><a href="#contact" className="text-white/75 hover:text-white">{t.footer.links.rfq}</a></li>
+              <li><a href={hrefFor(lang, "products")} className="text-white/75 hover:text-white">{t.footer.products}</a></li>
+              <li><a href={hrefFor(lang, "factory")} className="text-white/75 hover:text-white">{t.footer.factory}</a></li>
+              <li><a href={hrefFor(lang, "services")} className="text-white/75 hover:text-white">{t.footer.services}</a></li>
+              <li><a href={hrefFor(lang, "about")} className="text-white/75 hover:text-white">{t.footer.aboutL}</a></li>
+              <li><a href={hrefFor(lang, "contact")} className="text-white/75 hover:text-white">{t.footer.contact}</a></li>
             </ul>
           </div>
 
@@ -36,7 +37,7 @@ export function Footer({ lang }: { lang: Lang }) {
             <ul className="mt-4 space-y-2.5 text-sm text-white/75">
               <li><a href="mailto:info@soulselect.cn" className="hover:text-white">info@soulselect.cn</a></li>
               <li><a href="tel:+8613726671114" className="hover:text-white">+86 137 2667 1114</a></li>
-              <li className="leading-relaxed text-white/55">{t.contact.direct.addr}</li>
+              <li className="leading-relaxed text-white/55">{t.contact.directAddr}</li>
             </ul>
           </div>
         </div>
@@ -51,18 +52,18 @@ export function Footer({ lang }: { lang: Lang }) {
 }
 
 export function FloatingCTA({ lang }: { lang: Lang }) {
-  const t = DICTS[lang].floating;
+  const t = DICTS[lang].common;
   return (
     <div className="fixed bottom-5 right-5 z-40 flex flex-col gap-2">
       <a
-        href="#contact"
+        href={hrefFor(lang, "contact")}
         className="rounded-full bg-sunset px-5 py-3 text-sm font-semibold text-white shadow-xl shadow-orange-950/40 transition hover:brightness-110"
       >
-        {t.rfq}
+        {t.getQuote}
       </a>
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        aria-label={t.top}
+        aria-label="Top"
         className="ml-auto flex h-10 w-10 items-center justify-center rounded-full border border-border bg-white text-ink shadow-lg transition hover:bg-ink hover:text-white"
       >
         <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
