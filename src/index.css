@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 20% 97%;
+    --foreground: 222 35% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 35% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 35% 10%;
+    --primary: 214 62% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 36 30% 93%;
+    --secondary-foreground: 222 35% 12%;
+    --muted: 36 18% 94%;
+    --muted-foreground: 220 9% 40%;
+    --accent: 28 88% 58%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 36 12% 88%;
+    --input: 36 12% 85%;
+    --ring: 214 62% 42%;
+    --radius: 0.625rem;
+    --ink: 222 38% 9%;
+    --paper: 40 22% 97%;
+    --brand: 212 60% 45%;
+    --brand-deep: 214 64% 32%;
+    --sunset: 28 88% 56%;
+    --sand: 36 28% 92%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: "Inter", "Noto Sans SC", system-ui, sans-serif;
+  }
+  html[lang="zh"] body {
+    font-family: "Noto Sans SC", "Inter", system-ui, sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  ::selection {
+    background: hsl(var(--sunset) / 0.85);
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: "Fraunces", "Noto Serif SC", Georgia, serif;
+    font-optical-sizing: auto;
+  }
+  .font-body {
+    font-family: "Inter", "Noto Sans SC", system-ui, sans-serif;
+  }
+  .bg-ink {
+    background-color: hsl(var(--ink));
+  }
+  .text-ink {
+    color: hsl(var(--ink));
+  }
+  .bg-brand {
+    background-color: hsl(var(--brand));
+  }
+  .text-brand {
+    color: hsl(var(--brand));
+  }
+  .bg-brand-deep {
+    background-color: hsl(var(--brand-deep));
+  }
+  .text-brand-deep {
+    color: hsl(var(--brand-deep));
+  }
+  .bg-sunset {
+    background-color: hsl(var(--sunset));
+  }
+  .text-sunset {
+    color: hsl(var(--sunset));
+  }
+  .bg-sand {
+    background-color: hsl(var(--sand));
+  }
+  .paper {
+    background-color: hsl(var(--paper));
+  }
+  .marquee-track {
+    animation: marquee 32s linear infinite;
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .fade-up {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    background-image: radial-gradient(hsl(0 0% 100% / 0.04) 1px, transparent 1px);
+    background-size: 3px 3px;
+  }
+}
