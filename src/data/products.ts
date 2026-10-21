@@ -1,7 +1,7 @@
 import type { Lang } from "@/i18n";
 import catalog from "./catalog.json";
 
-export type CategoryKey = "leggings" | "pants" | "shorts" | "bras-tops" | "sets" | "unitards" | "outer-jogger";
+export type CategoryKey = "leggings" | "pants" | "shorts" | "bras-tops" | "sets" | "unitards" | "outer-jogger" | "accessories";
 
 export interface Style {
   slug: string;
@@ -16,6 +16,10 @@ export interface Style {
   features: string[];
   hot?: boolean;
   isNew?: boolean;
+  /** photographed in our own studio session (vs. catalog reference photo) */
+  studio?: boolean;
+  images: string[];
+  colorImages?: Record<string, string>;
   name: Record<Lang, string>;
   highlight: Record<Lang, string>;
 }
@@ -24,12 +28,33 @@ export const STYLES: Style[] = catalog.styles as Style[];
 
 export const bySlug = (slug: string) => STYLES.find((s) => s.slug === slug);
 
-export const CATEGORY_KEYS: CategoryKey[] = ["leggings", "pants", "shorts", "bras-tops", "sets", "unitards", "outer-jogger"];
+export const CLOTHING_KEYS: CategoryKey[] = ["leggings", "pants", "shorts", "bras-tops", "sets", "unitards", "outer-jogger"];
+export const CATEGORY_KEYS: CategoryKey[] = [...CLOTHING_KEYS, "accessories"];
+
+export const CATEGORY_COVER: Record<CategoryKey, string> = {
+  leggings: "/images/studio/rs1003-charcoal.webp",
+  pants: "/images/real/r-crossover.webp",
+  shorts: "/images/real/r-biker8.webp",
+  "bras-tops": "/images/studio/cx1004-brown.webp",
+  sets: "/images/real/r-ribbed-set.webp",
+  unitards: "/images/studio/a23j204-black.webp",
+  "outer-jogger": "/images/studio/cx1001-cream.webp",
+  accessories: "/images/acc/gaiter-camo-model.webp",
+};
+
+export const catCount = (c: CategoryKey) => STYLES.filter((s) => s.cat === c).length;
 
 export const HOT_STYLES = STYLES.filter((s) => s.hot);
 
 export const related = (s: Style, n = 4) =>
   STYLES.filter((x) => x.cat === s.cat && x.slug !== s.slug).slice(0, n);
+
+export const COLOR_HEX: Record<string, string> = {
+  black: "#1c1c1e", charcoal: "#45434a", graphite: "#8c8a8f", navy: "#1f2a44", sage: "#9aa58f", olive: "#6b6e55",
+  blush: "#e8b9b4", sand: "#d9c7ad", terracotta: "#b8603a", mocha: "#6b4636", espresso: "#3d2b24", plum: "#4a2c3d",
+  white: "#efe9df", dustyblue: "#b9c7d6", camo: "linear-gradient(135deg,#6b6e55 0 33%,#c7c9a0 33% 66%,#2f3a2e 66%)",
+  abstract: "linear-gradient(135deg,#e88fb0,#9ad0c2,#f3d36b)", tiedye: "linear-gradient(135deg,#7a8a9e,#d8dde6,#3d4a5c)",
+};
 
 export const COLOR_NAMES: Record<string, Record<Lang, string>> = {
   black: { en: "Black", zh: "经典黑", es: "Negro" },
@@ -71,6 +96,11 @@ export const FEATURE_LABELS: Record<string, Record<Lang, string>> = {
   lined: { en: "Built-in liner", zh: "内置衬裤", es: "Forro interior" },
   overbelly: { en: "Over-belly panel", zh: "过腹托腹", es: "Panel de panza" },
   upf: { en: "UPF 50+", zh: "UPF 50+ 防晒", es: "UPF 50+" },
+  thumbholes: { en: "Thumbholes", zh: "拇指孔", es: "Orificio pulgar" },
+  customprint: { en: "Custom print", zh: "可定制印花", es: "Estampado a medida" },
 };
 
-export const styleColorCount = (s: Style) => 6 + ((s.slug.length * 7) % 26);
+export const styleColorCount = (s: Style) => s.colors.length;
+
+/** image for a given color — only returns a real photo of that color, never a stand-in */
+export const imageForColor = (s: Style, color: string) => s.colorImages?.[color];

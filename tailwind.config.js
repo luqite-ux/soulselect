@@ -5,6 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        ink: "hsl(var(--ink) / <alpha-value>)",
+        paper: "hsl(var(--paper) / <alpha-value>)",
+        sand: "hsl(var(--sand) / <alpha-value>)",
+        blush: "hsl(var(--blush) / <alpha-value>)",
+        brand: { DEFAULT: "hsl(var(--brand) / <alpha-value>)", deep: "hsl(var(--brand-deep) / <alpha-value>)" },
+        sunset: "hsl(var(--sunset) / <alpha-value>)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

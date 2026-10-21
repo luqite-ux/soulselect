@@ -1,12 +1,15 @@
 import { DICTS, type Lang } from "@/i18n";
 import { hrefFor } from "@/router";
+import { whatsappLink } from "@/lib/inquiry";
+import { bySlug } from "@/data/products";
+import { Icon } from "@/components/Shared";
 
 export function Footer({ lang }: { lang: Lang }) {
   const t = DICTS[lang];
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/10 bg-[#080e19] py-14 text-white">
+    <footer className="bg-ink py-14 text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
@@ -36,7 +39,7 @@ export function Footer({ lang }: { lang: Lang }) {
             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white/50">{t.footer.contactTitle}</h3>
             <ul className="mt-4 space-y-2.5 text-sm text-white/75">
               <li><a href="mailto:info@soulselect.cn" className="hover:text-white">info@soulselect.cn</a></li>
-              <li><a href="tel:+8613726671114" className="hover:text-white">+86 137 2667 1114</a></li>
+              <li><a href={whatsappLink(t.ui.waText)} target="_blank" rel="noopener" className="inline-flex items-center gap-1.5 hover:text-white">{Icon.whatsapp("h-4 w-4")} +86 137 2667 1114</a></li>
               <li className="leading-relaxed text-white/55">{t.contact.directAddr}</li>
             </ul>
           </div>
@@ -52,24 +55,20 @@ export function Footer({ lang }: { lang: Lang }) {
 }
 
 export function FloatingCTA({ lang }: { lang: Lang }) {
-  const t = DICTS[lang].common;
+  const ui = DICTS[lang].ui;
+  const slug = typeof window !== "undefined" ? window.location.pathname.match(/\/products\/([^/]+)/)?.[1] : undefined;
+  const code = slug ? bySlug(slug)?.code : undefined;
+  const text = code ? ui.waStyle.replace("{code}", code) : ui.waText;
   return (
-    <div className="fixed bottom-5 right-5 z-40 flex flex-col gap-2">
-      <a
-        href={hrefFor(lang, "contact")}
-        className="rounded-full bg-sunset px-5 py-3 text-sm font-semibold text-white shadow-xl shadow-orange-950/40 transition hover:brightness-110"
-      >
-        {t.getQuote}
-      </a>
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        aria-label="Top"
-        className="ml-auto flex h-10 w-10 items-center justify-center rounded-full border border-border bg-white text-ink shadow-lg transition hover:bg-ink hover:text-white"
-      >
-        <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-          <path d="M12 19V5M5 12l7-7 7 7" />
-        </svg>
-      </button>
-    </div>
+    <a
+      href={whatsappLink(text)}
+      target="_blank"
+      rel="noopener"
+      aria-label={ui.whatsapp}
+      className="fixed bottom-4 right-4 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl shadow-black/20 transition hover:scale-105 sm:bottom-6 sm:right-6 sm:h-auto sm:w-auto sm:gap-2 sm:px-5 sm:py-3.5"
+    >
+      {Icon.whatsapp("h-6 w-6 sm:h-5 sm:w-5")}
+      <span className="hidden text-sm font-semibold sm:inline">WhatsApp</span>
+    </a>
   );
 }

@@ -1,6 +1,182 @@
 {
  "styles": [
   {
+   "slug": "rs1003-high-rise-no-front-seam-legging",
+   "cat": "leggings",
+   "code": "RS1003",
+   "img": "/images/studio/rs1003-charcoal.webp",
+   "images": [
+    "/images/studio/rs1003-charcoal.webp",
+    "/images/studio/rs1003-charcoal-back.webp",
+    "/images/studio/rs1003-yoga.webp",
+    "/images/studio/rs1003-black-detail.webp"
+   ],
+   "colorImages": {
+    "charcoal": "/images/studio/rs1003-charcoal.webp",
+    "black": "/images/studio/rs1003-black.webp",
+    "olive": "/images/studio/rs1003-olive.webp"
+   },
+   "moq": 200,
+   "fabric": "75% Nylon / 25% Spandex, double-brushed",
+   "gsm": 240,
+   "sizes": "XS–XL",
+   "colors": [
+    "charcoal",
+    "black",
+    "olive"
+   ],
+   "features": [
+    "butter",
+    "highrise",
+    "squat",
+    "stretch4",
+    "opaque"
+   ],
+   "hot": true,
+   "studio": true,
+   "name": {
+    "en": "High-Rise No-Front-Seam Legging",
+    "zh": "高腰无 T 线瑜伽长裤",
+    "es": "Legging tiro alto sin costura frontal"
+   },
+   "highlight": {
+    "en": "Clean front with no center seam, high sculpting waistband and a buttery double-brushed hand — the core legging every activewear line needs.",
+    "zh": "前片无 T 线、高腰塑形腰头、双面磨毛裸感手感——每个运动服品牌都需要的基础款。",
+    "es": "Frente limpio sin costura central, cintura alta moldeadora y tacto suave cepillado: el legging base de toda línea activewear."
+   }
+  },
+  {
+   "slug": "cx1001-seamless-zip-up-jacket",
+   "cat": "outer-jogger",
+   "code": "CX1001",
+   "img": "/images/studio/cx1001-cream.webp",
+   "images": [
+    "/images/studio/cx1001-cream.webp",
+    "/images/studio/cx1001-black-2.webp",
+    "/images/studio/cx1001-grey-2.webp"
+   ],
+   "colorImages": {
+    "white": "/images/studio/cx1001-cream.webp",
+    "black": "/images/studio/cx1001-black.webp",
+    "graphite": "/images/studio/cx1001-grey.webp"
+   },
+   "moq": 200,
+   "fabric": "Nylon / Spandex seamless knit, fitted",
+   "gsm": 230,
+   "sizes": "S–XL",
+   "colors": [
+    "white",
+    "black",
+    "graphite"
+   ],
+   "features": [
+    "seamless",
+    "stretch4",
+    "thumbholes",
+    "quickdry"
+   ],
+   "hot": true,
+   "studio": true,
+   "name": {
+    "en": "Seamless Fitted Zip-Up Jacket",
+    "zh": "无缝修身拉链外套",
+    "es": "Chaqueta ajustada sin costuras con cremallera"
+   },
+   "highlight": {
+    "en": "Body-skimming zip jacket with thumbholes and a stand collar — layers over a bra or tank from studio to street.",
+    "zh": "贴身拉链外套，拇指孔与立领设计，可搭配运动内衣或背心，从瑜伽馆到街头都适合。",
+    "es": "Chaqueta ceñida con orificios para pulgar y cuello alto: perfecta sobre top o bra, del estudio a la calle."
+   }
+  },
+  {
+   "slug": "cx1003-crew-neck-long-sleeve-top",
+   "cat": "bras-tops",
+   "code": "CX1003",
+   "img": "/images/studio/cx1003-cream-full.webp",
+   "images": [
+    "/images/studio/cx1003-cream-full.webp",
+    "/images/studio/cx1003-grey-back.webp",
+    "/images/studio/cx1003-black-full.webp"
+   ],
+   "colorImages": {
+    "white": "/images/studio/cx1003-cream-full.webp",
+    "graphite": "/images/studio/cx1003-grey-back.webp",
+    "dustyblue": "/images/studio/cx1003-iceblue.webp",
+    "black": "/images/studio/cx1003-black.webp"
+   },
+   "moq": 200,
+   "fabric": "Nylon / Spandex brushed knit",
+   "gsm": 220,
+   "sizes": "S–XL",
+   "colors": [
+    "white",
+    "graphite",
+    "dustyblue",
+    "black"
+   ],
+   "features": [
+    "butter",
+    "stretch4",
+    "thumbholes",
+    "wicking"
+   ],
+   "studio": true,
+   "isNew": true,
+   "name": {
+    "en": "Crew-Neck Fitted Long-Sleeve Top",
+    "zh": "圆领修身运动长袖",
+    "es": "Top manga larga cuello redondo"
+   },
+   "highlight": {
+    "en": "Second-skin long sleeve with thumbholes — a year-round layering piece for yoga, running and cooler-weather training.",
+    "zh": "第二层肌肤般的长袖上衣，带拇指孔，瑜伽、跑步与秋冬训练的全年打底款。",
+    "es": "Manga larga tipo segunda piel con orificios para pulgar: capa básica todo el año."
+   }
+  },
+  {
+   "slug": "cx1004-square-neck-long-sleeve-crop",
+   "cat": "bras-tops",
+   "code": "CX1004",
+   "img": "/images/studio/cx1004-brown.webp",
+   "images": [
+    "/images/studio/cx1004-brown.webp",
+    "/images/studio/cx1004-black-2.webp",
+    "/images/studio/cx1004-cream.webp"
+   ],
+   "colorImages": {
+    "mocha": "/images/studio/cx1004-brown.webp",
+    "black": "/images/studio/cx1004-black.webp",
+    "white": "/images/studio/cx1004-cream.webp"
+   },
+   "moq": 200,
+   "fabric": "Nylon / Spandex seamless rib knit",
+   "gsm": 230,
+   "sizes": "S–XL",
+   "colors": [
+    "mocha",
+    "black",
+    "white"
+   ],
+   "features": [
+    "seamless",
+    "ribbed",
+    "thumbholes",
+    "stretch4"
+   ],
+   "hot": true,
+   "studio": true,
+   "name": {
+    "en": "Square-Neck Long-Sleeve Crop Top",
+    "zh": "无缝方领长袖短款上衣",
+    "es": "Crop top manga larga cuello cuadrado"
+   },
+   "highlight": {
+    "en": "Cropped, square-neck long sleeve that pairs with high-rise leggings — one of the most-wanted silhouettes in athleisure right now.",
+    "zh": "方领短款长袖，与高腰裤完美搭配，是当下运动休闲最受欢迎的版型之一。",
+    "es": "Crop de manga larga y cuello cuadrado, ideal con leggings de tiro alto."
+   }
+  },
+  {
    "slug": "a23l265-naked-feel-legging",
    "cat": "leggings",
    "code": "A23L265",
@@ -32,7 +208,10 @@
     "en": "The everyday 25-inch bestseller base — matte 40D knit, zero see-through, all-day comfort.",
     "zh": "25 英寸日常爆款底版——40D 哑光针织，零透不尴尬，全天舒适。",
     "es": "La base bestseller de 25 pulgadas: tejido mate 40D, cero transparencia, comodidad total."
-   }
+   },
+   "images": [
+    "/images/real/r-nakedfeel.webp"
+   ]
   },
   {
    "slug": "a23l087-jacquard-sculpt-legging",
@@ -64,7 +243,10 @@
     "en": "Raised jacquard texture that lifts and hides flaws — a top-3 reorder from US brands.",
     "zh": "立体提花纹理，提臀遮瑕——美国客户翻单率前三。",
     "es": "Textura jacquard en relieve que realza y disimula — top 3 en recompras de marcas de EE. UU."
-   }
+   },
+   "images": [
+    "/images/real/r-jacquard.webp"
+   ]
   },
   {
    "slug": "a23l119-camo-seamless-legging",
@@ -96,7 +278,10 @@
     "en": "Buttery camo seamless 2-piece — the pattern US buyers keep restocking.",
     "zh": "黄油裸感迷彩无缝两件套——美国客户持续返单的花型。",
     "es": "Conjunto camuflaje sin costuras súper suave — el estampado que EE. UU. recompra."
-   }
+   },
+   "images": [
+    "/images/real/r-camo.webp"
+   ]
   },
   {
    "slug": "a23l235-leopard-seamless-legging",
@@ -129,7 +314,10 @@
     "en": "Animal print done tastefully — seamless tummy-control waist, 4-way stretch.",
     "zh": "高级感豹纹——无缝收腹腰头，四向高弹。",
     "es": "Estampado animal con gusto: cintura sin costuras controladora, stretch 4D."
-   }
+   },
+   "images": [
+    "/images/real/r-leopard.webp"
+   ]
   },
   {
    "slug": "sck006-camo-performance-legging",
@@ -161,7 +349,10 @@
     "en": "Street-to-gym camo with practical deep pockets and a stay-put waistband.",
     "zh": "街健两穿迷彩款，实用深口袋 + 防滑腰头。",
     "es": "Camuflaje de calle a gimnasio con bolsillos profundos y cintura fija."
-   }
+   },
+   "images": [
+    "/images/real/r-camo-utility.webp"
+   ]
   },
   {
    "slug": "tiedye-wash-legging",
@@ -193,7 +384,10 @@
     "en": "Hand-feel tie-dye wash — every piece unique, ready for your custom colorways.",
     "zh": "扎染水洗工艺——每件独一无二，可按需定制配色。",
     "es": "Lavado tie-dye: cada pieza es única, listo para tus colores personalizados."
-   }
+   },
+   "images": [
+    "/images/real/r-tiedye.webp"
+   ]
   },
   {
    "slug": "a23l297-marble-scrunch-legging",
@@ -226,7 +420,10 @@
     "en": "The scrunch-butt silhouette that dominated 2025 US charts — 10 colorways in stock yarn.",
     "zh": "2025 年霸榜美国的蜜桃臀版型——10 色纱线现货。",
     "es": "El scrunch que dominó 2025 en EE. UU. — 10 colores con hilo en stock."
-   }
+   },
+   "images": [
+    "/images/real/r-marble.webp"
+   ]
   },
   {
    "slug": "a23l018-ribbed-seamless-legging",
@@ -258,7 +455,10 @@
     "en": "Fine-rib seamless knit with a flattering compression hand — pairs with bra A23B017.",
     "zh": "细罗纹无缝织法，微压塑形手感——可搭配文胸 A23B017 成套。",
     "es": "Canalé fino sin costuras con compresión favorecedora — combina con bra A23B017."
-   }
+   },
+   "images": [
+    "/images/real/r-ribbed.webp"
+   ]
   },
   {
    "slug": "a23l234-textured-knit-legging",
@@ -290,7 +490,11 @@
     "en": "3D dot-texture knit that masks cellulite — the detail-driven style boutiques ask for by name.",
     "zh": "3D 点状肌理针织，视觉修饰——精品店点名要的细节款。",
     "es": "Tejido 3D que disimula — el estilo que las boutiques piden por nombre."
-   }
+   },
+   "images": [
+    "/images/real/r-textured.webp",
+    "/images/studio/a23l234-set.webp"
+   ]
   },
   {
    "slug": "a23lt248-crossover-waist-legging",
@@ -323,7 +527,10 @@
     "en": "V-cross waistband that snatches the waist — TikTok's favorite waistline, ready to brand.",
     "zh": "V 型交叉腰，收腰显瘦——TikTok 爆款腰型，可贴牌。",
     "es": "Cintura cruzada en V que estiliza — la favorita de TikTok, lista para tu marca."
-   }
+   },
+   "images": [
+    "/images/real/r-crossover.webp"
+   ]
   },
   {
    "slug": "ss-xs01-scrunch-lift-legging",
@@ -355,7 +562,10 @@
     "en": "Heart-shaped scrunch seam + contour shading — engineered for the fitting-room mirror test.",
     "zh": "心形提臀缝线 + 阴影修容剪裁——专为试衣镜效果设计。",
     "es": "Costura scrunch en corazón + shading de contorno — diseñado para el espejo del probador."
-   }
+   },
+   "images": [
+    "/images/real/r-pink-scrunch.webp"
+   ]
   },
   {
    "slug": "a23l090-liquid-shine-legging",
@@ -388,7 +598,10 @@
     "en": "Subtle liquid sheen for studio-to-street looks — the '亮光丝' knit European brands love.",
     "zh": "细腻流光质感，馆内街拍两穿——欧洲品牌青睐的“亮光丝”织法。",
     "es": "Brillo sutil de estudio a calle — el tejido '亮光丝' que aman las marcas europeas."
-   }
+   },
+   "images": [
+    "/images/real/r-shine.webp"
+   ]
   },
   {
    "slug": "crossover-flare-pant-31",
@@ -421,7 +634,10 @@
     "en": "The crossover-waist flare that owned 2025 — 4 inseam options, brushed or sleek hand.",
     "zh": "2025 年统治市场的交叉腰喇叭裤——4 种内长可选，磨毛或光滑手感。",
     "es": "El flare de cintura cruzada que dominó 2025 — 4 largos interior, tacto brush o liso."
-   }
+   },
+   "images": [
+    "/images/p-flare-navy.webp"
+   ]
   },
   {
    "slug": "mini-flare-scrunch-legging-29",
@@ -453,7 +669,10 @@
     "en": "29-inch mini flare with scrunch lift — the gym-to-brunch silhouette of the season.",
     "zh": "29 英寸微喇 + 蜜桃提臀——本季健身到早午餐通吃版型。",
     "es": "Mini flare 29\" con scrunch — la silueta de la temporada."
-   }
+   },
+   "images": [
+    "/images/new/p-miniflare-black.webp"
+   ]
   },
   {
    "slug": "bootcut-yoga-pant-32",
@@ -485,7 +704,10 @@
     "en": "The classic 32-inch bootcut, re-engineered with a sculpting waistband and matte knit.",
     "zh": "经典 32 英寸微喇，升级塑形腰头 + 哑光针织。",
     "es": "El bootcut clásico de 32\" rediseñado con cintura esculpidora y tejido mate."
-   }
+   },
+   "images": [
+    "/images/new/p-bootcut-espresso.webp"
+   ]
   },
   {
    "slug": "wide-leg-flow-pant",
@@ -517,7 +739,10 @@
     "en": "Relaxed wide-leg with a flat support waist — lounge lines and resort capsules start here.",
     "zh": "宽松阔腿 + 平整支撑腰头——家居线、度假系列的起点。",
     "es": "Wide-leg relajado con cintura plana de soporte — base de líneas lounge y resort."
-   }
+   },
+   "images": [
+    "/images/new/p-wideleg-sage.webp"
+   ]
   },
   {
    "slug": "a24b029-ribbed-biker-short",
@@ -549,7 +774,10 @@
     "en": "6-inch ribbed biker set in a 6-color core palette — a proven volume driver for DTC brands.",
     "zh": "6 英寸罗纹骑行套装，6 色基础盘——DTC 品牌走量利器。",
     "es": "Set biker canalé 6\" en 6 colores base — probado para volumen DTC."
-   }
+   },
+   "images": [
+    "/images/real/r-biker6.webp"
+   ]
   },
   {
    "slug": "a24s034-high-rise-biker-short",
@@ -581,7 +809,10 @@
     "en": "7-inch high-rise biker with a smoothing waist — the legging-buyer's summer swap.",
     "zh": "7 英寸高腰骑行裤，平滑收腹——紧身裤客户的夏季替换款。",
     "es": "Biker 7\" tiro alto con cintura moldeadora — el cambio de verano del comprador de leggings."
-   }
+   },
+   "images": [
+    "/images/real/r-biker8.webp"
+   ]
   },
   {
    "slug": "yj2255-scrunch-boost-short",
@@ -614,7 +845,10 @@
     "en": "Scrunch-seam boost short with contour shading — engineered shape, squat-proof knit.",
     "zh": "蜜桃提臀短裤，阴影修容剪裁——立体塑形，深蹲不透。",
     "es": "Short scrunch con shading de contorno — forma esculpida, tejido squat-proof."
-   }
+   },
+   "images": [
+    "/images/real/r-scrunch-short.webp"
+   ]
   },
   {
    "slug": "a23s072-print-run-short",
@@ -646,7 +880,10 @@
     "en": "Featherweight printed run short — full custom prints from 200 pcs with your artwork.",
     "zh": "轻量印花运动短裤——200 件起可用您的图案全定制。",
     "es": "Short de running ligero estampado — impresión total personalizada desde 200 pzs con tu arte."
-   }
+   },
+   "images": [
+    "/images/real/r-runshort.webp"
+   ]
   },
   {
    "slug": "a23b236-v-neck-rib-bra",
@@ -677,7 +914,10 @@
     "en": "Plunge-V ribbed bra with removable pads — designed to match legging A23L237.",
     "zh": "深 V 罗纹文胸，可拆胸垫——与紧身裤 A23L237 成套设计。",
     "es": "Bra canalé escote V con copas removibles — combina con legging A23L237."
-   }
+   },
+   "images": [
+    "/images/real/r-vbra.webp"
+   ]
   },
   {
    "slug": "hm001-ombre-seamless-bra",
@@ -709,7 +949,10 @@
     "en": "Space-dye ombre knit, medium support — an instant add-on that lifts AOV.",
     "zh": "段染渐变针织，中强度支撑——提升客单价的即时加购款。",
     "es": "Tejido degradado space-dye, soporte medio — un add-on que sube el ticket."
-   }
+   },
+   "images": [
+    "/images/real/r-gradient-bra.webp"
+   ]
   },
   {
    "slug": "ss-xs02-strappy-crop-bra",
@@ -740,7 +983,10 @@
     "en": "Layered strappy back, low-impact hold — the studio-to-street top of the season.",
     "zh": "多层细带美背，低强度支撑——本季馆内街拍两穿爆款。",
     "es": "Espalda de tiras superpuestas, soporte ligero — el top de la temporada."
-   }
+   },
+   "images": [
+    "/images/real/r-strappy-bra.webp"
+   ]
   },
   {
    "slug": "a23lt304-ribbed-strappy-tank",
@@ -772,7 +1018,10 @@
     "en": "Built-in-bra ribbed tank with a strappy back — one piece, whole outfit.",
     "zh": "自带胸垫罗纹背心，美背设计——一件成装。",
     "es": "Top canalé con bra integrado y espalda de tiras — una pieza, todo el outfit."
-   }
+   },
+   "images": [
+    "/images/real/r-tank.webp"
+   ]
   },
   {
    "slug": "a24b033-longline-rib-bra",
@@ -803,7 +1052,10 @@
     "en": "Longline rib bra with a smoothing band — medium support, maximum pairability.",
     "zh": "长款罗纹文胸，平滑下摆——中强度支撑，百搭成套。",
     "es": "Bra canalé largo con banda moldeadora — soporte medio, combina con todo."
-   }
+   },
+   "images": [
+    "/images/real/r-longline.webp"
+   ]
   },
   {
    "slug": "a23b111-ribbed-knit-set",
@@ -836,7 +1088,10 @@
     "en": "Matching ribbed bra + legging set — the giftable bundle your Q4 needs.",
     "zh": "罗纹文胸 + 紧身裤成套——Q4 礼品套装首选。",
     "es": "Set canalé bra + legging — el bundle de regalo que tu Q4 necesita."
-   }
+   },
+   "images": [
+    "/images/real/r-ribbed-set.webp"
+   ]
   },
   {
    "slug": "a23l228-buttersoft-seamless-set",
@@ -870,7 +1125,10 @@
     "en": "7-colorway butter-soft set — our most requested silhouette from Amazon sellers.",
     "zh": "7 色黄油裸感套装——亚马逊卖家询价最多的版型。",
     "es": "Set ultra suave en 7 colores — la silueta más pedida por vendedores de Amazon."
-   }
+   },
+   "images": [
+    "/images/real/r-butter-set.webp"
+   ]
   },
   {
    "slug": "a23b105-aqua-seamless-set",
@@ -902,7 +1160,10 @@
     "en": "Vivid-color seamless set with contour panels — built for loud brands.",
     "zh": "高饱和度无缝套装，修容剪裁——为张扬品牌而生。",
     "es": "Set seamless de colores vivos con paneles de contorno — para marcas atrevidas."
-   }
+   },
+   "images": [
+    "/images/real/r-aqua-set.webp"
+   ]
   },
   {
    "slug": "a23l088-faux-layer-set",
@@ -934,7 +1195,10 @@
     "en": "Built-in-layer look without the bulk — one of our most reordered gym-bag sets.",
     "zh": "假两件层次感，无臃肿——翻单率最高的健身套装之一。",
     "es": "Look de capas integradas sin volumen — de los sets más recomprados."
-   }
+   },
+   "images": [
+    "/images/real/r-faux2-set.webp"
+   ]
   },
   {
    "slug": "a23l311-ls-crop-2pc-set",
@@ -966,7 +1230,10 @@
     "en": "Long-sleeve crop top + high-rise legging — the covered-up bestseller for cooler markets.",
     "zh": "长袖短上衣 + 高腰紧身裤——凉季市场畅销款。",
     "es": "Top crop manga larga + legging tiro alto — el bestseller de climas frescos."
-   }
+   },
+   "images": [
+    "/images/real/r-lsleeve.webp"
+   ]
   },
   {
    "slug": "a24t031-ribbed-crop-set",
@@ -998,7 +1265,10 @@
     "en": "Ribbed crop top with matching biker short — summer capsules in a 6-color palette.",
     "zh": "罗纹短上衣 + 配套骑行短裤——夏季胶囊系列，6 色盘。",
     "es": "Crop canalé con biker a juego — cápsula de verano en 6 colores."
-   }
+   },
+   "images": [
+    "/images/real/r-crop-set.webp"
+   ]
   },
   {
    "slug": "a24d036-everyday-romper",
@@ -1031,7 +1301,10 @@
     "en": "One-and-done romper with a built-in bra — 2025's fastest-growing activewear category.",
     "zh": "一件式连体短裤，自带胸垫——2025 年增长最快的品类。",
     "es": "Romper todo-en-uno con bra integrado — la categoría de mayor crecimiento 2025."
-   }
+   },
+   "images": [
+    "/images/real/r-romper-khaki.webp"
+   ]
   },
   {
    "slug": "a23l107-sculpt-romper",
@@ -1062,7 +1335,10 @@
     "en": "Sculpting short romper with a crossover back — dance, pilates and beyond.",
     "zh": "塑形连体短裤，交叉美背——舞蹈、普拉提皆宜。",
     "es": "Romper escultor con espalda cruzada — danza, pilates y más."
-   }
+   },
+   "images": [
+    "/images/real/r-romper-blue.webp"
+   ]
   },
   {
    "slug": "a24j037-sleeveless-jumpsuit",
@@ -1094,13 +1370,16 @@
     "en": "Buttery sleeveless jumpsuit — one pattern, three lengths, infinite private-label colorways.",
     "zh": "黄油裸感无袖连体裤——一个版型，三种长度，贴牌配色无限。",
     "es": "Mono sin mangas ultra suave — un patrón, tres largos, infinitos colores."
-   }
+   },
+   "images": [
+    "/images/real/r-jumpsuit-olive.webp"
+   ]
   },
   {
    "slug": "a23j204-tiedye-romper",
    "cat": "unitards",
    "code": "A23J204",
-   "img": "/images/real/r-romper-tiedye.webp",
+   "img": "/images/studio/a23j204-black.webp",
    "moq": 200,
    "fabric": "80% Nylon / 20% Spandex (custom blends available)",
    "gsm": 230,
@@ -1127,7 +1406,14 @@
     "en": "Hand-tie-dye romper with scrunch lift — every unit one of a kind, MOQ 200.",
     "zh": "手工扎染连体短裤 + 蜜桃提臀——每件独一无二，200 件起订。",
     "es": "Romper tie-dye artesanal con scrunch — cada pieza única, MOQ 200."
-   }
+   },
+   "images": [
+    "/images/studio/a23j204-black.webp",
+    "/images/studio/a23j204-black-back.webp",
+    "/images/real/r-romper-tiedye.webp"
+   ],
+   "studio": true,
+   "hot": true
   },
   {
    "slug": "j10-zip-track-jacket",
@@ -1158,7 +1444,10 @@
     "en": "Full-zip track jacket with thumbholes — the layer that completes every set story.",
     "zh": "全拉链运动外套，拇指洞设计——让每个套装系列完整的一层。",
     "es": "Chaqueta full-zip con pasapulgares — la capa que completa cada conjunto."
-   }
+   },
+   "images": [
+    "/images/real/r-jacket-grey.webp"
+   ]
   },
   {
    "slug": "j16-colorblock-track-jacket",
@@ -1190,6 +1479,132 @@
     "en": "Color-forward zip jacket in mustard, navy & lavender — capsule drops ready.",
     "zh": "姜黄、藏青、薰衣草等亮色拉链外套——胶囊系列即订即产。",
     "es": "Chaqueta zipper en mostaza, navy y lavanda — cápsulas listas para producir."
+   },
+   "images": [
+    "/images/real/r-jacket-navy.webp"
+   ]
+  },
+  {
+   "slug": "acc-uv-neck-gaiter",
+   "cat": "accessories",
+   "code": "SS-NG01",
+   "img": "/images/acc/gaiter-camo-model.webp",
+   "images": [
+    "/images/acc/gaiter-camo-model.webp",
+    "/images/acc/gaiter-camo.webp",
+    "/images/acc/gaiter-black-model.webp",
+    "/images/acc/gaiter-seamless-detail.webp"
+   ],
+   "colorImages": {
+    "camo": "/images/acc/gaiter-camo.webp",
+    "black": "/images/acc/gaiter-black-model.webp",
+    "dustyblue": "/images/acc/gaiter-blue.webp",
+    "abstract": "/images/acc/gaiter-watercolor.webp"
+   },
+   "moq": 300,
+   "fabric": "Ice-silk polyester / spandex, seamless tube",
+   "gsm": 140,
+   "sizes": "One size · 25 × 50 cm",
+   "colors": [
+    "camo",
+    "black",
+    "dustyblue",
+    "abstract"
+   ],
+   "features": [
+    "upf",
+    "seamless",
+    "quickdry",
+    "customprint"
+   ],
+   "studio": false,
+   "name": {
+    "en": "UV Seamless Neck Gaiter",
+    "zh": "冰丝防晒无缝脖套",
+    "es": "Braga de cuello UV sin costuras"
+   },
+   "highlight": {
+    "en": "Seamless tube gaiter in cooling ice-silk knit — fully sublimation-printable with your own artwork and logo.",
+    "zh": "冰丝凉感无缝脖套，可整幅热升华印制您的图案与 logo。",
+    "es": "Braga tubular sin costuras en tejido refrescante, imprimible con tu diseño y logo."
+   }
+  },
+  {
+   "slug": "acc-sports-headband",
+   "cat": "accessories",
+   "code": "SS-HB01",
+   "img": "/images/acc/headband-model.webp",
+   "images": [
+    "/images/acc/headband-model.webp",
+    "/images/acc/headband-plaid.webp",
+    "/images/acc/headband-stars.webp",
+    "/images/acc/headband-teal.webp"
+   ],
+   "colorImages": {
+    "white": "/images/acc/headband-model.webp",
+    "abstract": "/images/acc/headband-plaid.webp",
+    "navy": "/images/acc/headband-stars.webp"
+   },
+   "moq": 300,
+   "fabric": "Polyester / spandex, moisture-wicking",
+   "gsm": 180,
+   "sizes": "One size",
+   "colors": [
+    "white",
+    "abstract",
+    "navy"
+   ],
+   "features": [
+    "wicking",
+    "quickdry",
+    "customprint"
+   ],
+   "name": {
+    "en": "Wide Sweat-Wicking Headband",
+    "zh": "宽版吸汗运动发带",
+    "es": "Banda ancha para el sudor"
+   },
+   "highlight": {
+    "en": "Wide, non-slip sports headband in printable performance knit — an easy add-on SKU for gyms and activewear brands.",
+    "zh": "宽版防滑运动发带，可定制印花，是健身房与运动品牌的理想附加款。",
+    "es": "Banda deportiva ancha antideslizante, personalizable con estampado."
+   }
+  },
+  {
+   "slug": "acc-uv-arm-sleeves",
+   "cat": "accessories",
+   "code": "SS-AS01",
+   "img": "/images/acc/armsleeve-pink.webp",
+   "images": [
+    "/images/acc/armsleeve-pink.webp",
+    "/images/acc/armsleeve-pink-2.webp"
+   ],
+   "colorImages": {
+    "blush": "/images/acc/armsleeve-pink.webp"
+   },
+   "moq": 300,
+   "fabric": "Ice-silk nylon / spandex",
+   "gsm": 150,
+   "sizes": "One size",
+   "colors": [
+    "blush",
+    "white",
+    "black"
+   ],
+   "features": [
+    "upf",
+    "quickdry",
+    "customprint"
+   ],
+   "name": {
+    "en": "UV Cooling Arm Sleeves",
+    "zh": "冰丝防晒袖套",
+    "es": "Mangas UV refrescantes"
+   },
+   "highlight": {
+    "en": "Cooling ice-silk arm sleeves for outdoor training, golf and cycling — custom colors and printed logo available.",
+    "zh": "冰丝凉感防晒袖套，适合户外训练、高尔夫与骑行，可定制颜色与印 logo。",
+    "es": "Mangas refrescantes para entrenamiento al aire libre, golf y ciclismo."
    }
   }
  ]

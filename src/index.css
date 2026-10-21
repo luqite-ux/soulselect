@@ -4,32 +4,33 @@
 
 @layer base {
   :root {
-    --background: 36 24% 96%;
-    --foreground: 220 28% 10%;
+    --background: 36 30% 96%;
+    --foreground: 225 8% 10%;
     --card: 0 0% 100%;
-    --card-foreground: 220 28% 10%;
+    --card-foreground: 225 8% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 28% 10%;
-    --primary: 207 48% 38%;
+    --popover-foreground: 225 8% 10%;
+    --primary: 113 11% 32%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 34 28% 92%;
-    --secondary-foreground: 220 28% 12%;
-    --muted: 34 20% 93%;
-    --muted-foreground: 220 9% 40%;
-    --accent: 20 85% 50%;
+    --secondary: 37 30% 91%;
+    --secondary-foreground: 225 8% 12%;
+    --muted: 37 24% 92%;
+    --muted-foreground: 225 5% 38%;
+    --accent: 18 52% 47%;
     --accent-foreground: 0 0% 100%;
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
-    --border: 34 14% 87%;
-    --input: 34 14% 84%;
-    --ring: 207 48% 38%;
-    --radius: 0.625rem;
-    --ink: 222 30% 10%;
-    --paper: 36 26% 96%;
-    --brand: 205 50% 40%;
-    --brand-deep: 208 55% 28%;
-    --sunset: 20 85% 50%;
-    --sand: 34 26% 91%;
+    --border: 33 18% 86%;
+    --input: 33 16% 82%;
+    --ring: 113 11% 32%;
+    --radius: 0.5rem;
+    --ink: 225 8% 10%;
+    --paper: 36 30% 96%;
+    --brand: 113 11% 32%;
+    --brand-deep: 115 12% 20%;
+    --sunset: 18 52% 47%;
+    --sand: 34 30% 90%;
+    --blush: 25 55% 88%;
   }
 
   * {
@@ -59,33 +60,18 @@
   .font-body {
     font-family: "Inter", "Noto Sans SC", system-ui, sans-serif;
   }
-  .bg-ink {
-    background-color: hsl(var(--ink));
-  }
-  .text-ink {
-    color: hsl(var(--ink));
-  }
-  .bg-brand {
-    background-color: hsl(var(--brand));
-  }
-  .text-brand {
+  .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
     color: hsl(var(--brand));
   }
-  .bg-brand-deep {
-    background-color: hsl(var(--brand-deep));
-  }
-  .text-brand-deep {
-    color: hsl(var(--brand-deep));
-  }
-  .bg-sunset {
-    background-color: hsl(var(--sunset));
-  }
-  .text-sunset {
-    color: hsl(var(--sunset));
-  }
-  .bg-sand {
+  .page-hero {
     background-color: hsl(var(--sand));
   }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
   .paper {
     background-color: hsl(var(--paper));
   }
@@ -98,8 +84,11 @@
   }
   .fade-up {
     opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 0.7s ease, transform 0.7s ease;
+    transform: translateY(14px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fade-up { opacity: 1; transform: none; transition: none; }
   }
   .fade-up.is-visible {
     opacity: 1;

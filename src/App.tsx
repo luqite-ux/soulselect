@@ -8,6 +8,8 @@ import { HomePage } from "@/pages/Home";
 import { ProductsPage, ProductDetailPage } from "@/pages/Products";
 import { FactoryPage, ServicesPage, AboutPage, ContactPage } from "@/pages/Company";
 import { bySlug } from "@/data/products";
+import { InquiryDrawer } from "@/components/Shared";
+import { drawer } from "@/lib/inquiry";
 
 export default function App() {
   const [route, setRoute] = useState(() => parseRoute(window.location.pathname, window.location.search));
@@ -37,6 +39,7 @@ export default function App() {
   // scroll to top on route change + per-page SEO meta
   useEffect(() => {
     window.scrollTo(0, 0);
+    drawer.close();
     const { lang, page, slug } = route;
     document.documentElement.lang = lang;
     const seo = DICTS[lang].seo;
@@ -65,15 +68,16 @@ export default function App() {
       <Header lang={lang} page={page} />
       <main>
         {page === "home" && <HomePage lang={lang} />}
-        {page === "products" && <ProductsPage lang={lang} search={search} />}
-        {page === "product" && <ProductDetailPage lang={lang} slug={slug ?? ""} />}
+        {page === "products" && <ProductsPage key={search} lang={lang} search={search} />}
+        {page === "product" && <ProductDetailPage key={slug} lang={lang} slug={slug ?? ""} />}
         {page === "factory" && <FactoryPage lang={lang} />}
         {page === "services" && <ServicesPage lang={lang} />}
         {page === "about" && <AboutPage lang={lang} />}
-        {page === "contact" && <ContactPage lang={lang} search={search} />}
+        {page === "contact" && <ContactPage key={search} lang={lang} search={search} />}
       </main>
       <Footer lang={lang} />
       <FloatingCTA lang={lang} />
+      <InquiryDrawer lang={lang} />
     </div>
   );
 }
