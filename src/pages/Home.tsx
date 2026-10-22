@@ -190,7 +190,7 @@ export function HomePage({ lang }: { lang: Lang }) {
           </div>
           <div className="fade-up grid grid-cols-2 gap-3">
             <img src="/images/studio/factory-fabric-stock.webp" alt="Bundles of cut activewear panels and fabric stock on the production floor" loading="lazy" className="aspect-[3/4] w-full rounded-lg object-cover" />
-            <img src="/images/factory-sewing.webp" alt="Operator sewing activewear on a flatlock machine" loading="lazy" className="mt-10 aspect-[3/4] w-full rounded-lg object-cover" />
+            <img src="/images/factory/packing.webp" alt="Packed export cartons ready for shipment" loading="lazy" className="mt-10 aspect-[3/4] w-full rounded-lg object-cover" />
           </div>
         </Container>
       </section>
@@ -206,13 +206,13 @@ export function HomePage({ lang }: { lang: Lang }) {
           </div>
           <div className="grid grid-cols-2 gap-3 lg:col-span-7">
             {[
-              ["/images/factory-cutting.webp", d.factory.items[0].t],
-              ["/images/factory-floor.webp", d.factory.items[1].t],
-              ["/images/factory-qc.webp", d.factory.items[2].t],
-              ["/images/factory-warehouse.webp", d.factory.items[3].t],
+              ["/images/factory/knitting.webp", d.factory.items[0].t],
+              ["/images/factory/finishing.webp", d.factory.items[1].t],
+              ["/images/factory/inspect.webp", d.factory.items[2].t],
+              ["/images/factory/warehouse.webp", d.factory.items[3].t],
             ].map(([src, cap]) => (
               <figure key={src} className="fade-up relative overflow-hidden rounded-lg">
-                <img src={src} alt={cap} loading="lazy" className="aspect-[4/3] w-full object-cover" />
+                <img src={src} alt={cap} loading="lazy" className="aspect-[4/5] w-full object-cover" />
                 <figcaption className="absolute bottom-2 left-2 rounded-full bg-white/90 px-2.5 py-1 text-xs font-medium text-ink">{cap}</figcaption>
               </figure>
             ))}

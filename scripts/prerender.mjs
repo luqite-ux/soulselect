@@ -19,7 +19,7 @@ const PAGES = ["", "products/", "factory/", "services/", "about/", "contact/"];
 const ROUTES = ["/"];
 for (const lang of LANGS) {
   for (const p of PAGES) ROUTES.push(`/${lang}/${p}`);
-  for (const s of CATALOG.styles) ROUTES.push(`/${lang}/products/${s.slug}/`);
+  for (const s of CATALOG.styles.filter((x) => !x.hidden)) ROUTES.push(`/${lang}/products/${s.slug}/`);
 }
 
 const CHROME_CANDIDATES = [

@@ -637,7 +637,8 @@
    },
    "images": [
     "/images/p-flare-navy.webp"
-   ]
+   ],
+   "hidden": true
   },
   {
    "slug": "mini-flare-scrunch-legging-29",
@@ -672,7 +673,8 @@
    },
    "images": [
     "/images/new/p-miniflare-black.webp"
-   ]
+   ],
+   "hidden": true
   },
   {
    "slug": "bootcut-yoga-pant-32",
@@ -707,7 +709,8 @@
    },
    "images": [
     "/images/new/p-bootcut-espresso.webp"
-   ]
+   ],
+   "hidden": true
   },
   {
    "slug": "wide-leg-flow-pant",
@@ -742,7 +745,8 @@
    },
    "images": [
     "/images/new/p-wideleg-sage.webp"
-   ]
+   ],
+   "hidden": true
   },
   {
    "slug": "a24b029-ribbed-biker-short",

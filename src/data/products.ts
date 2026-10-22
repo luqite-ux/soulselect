@@ -24,11 +24,14 @@ export interface Style {
   highlight: Record<Lang, string>;
 }
 
-export const STYLES: Style[] = catalog.styles as Style[];
+/** styles flagged `hidden` (e.g. no real photo yet) stay in the data file but are not published */
+export const STYLES: Style[] = (catalog.styles as (Style & { hidden?: boolean })[]).filter((s) => !s.hidden);
 
 export const bySlug = (slug: string) => STYLES.find((s) => s.slug === slug);
 
-export const CLOTHING_KEYS: CategoryKey[] = ["leggings", "pants", "shorts", "bras-tops", "sets", "unitards", "outer-jogger"];
+const hasStyles = (c: CategoryKey) => STYLES.some((s) => s.cat === c);
+/** only categories that currently have published styles */
+export const CLOTHING_KEYS: CategoryKey[] = (["leggings", "pants", "shorts", "bras-tops", "sets", "unitards", "outer-jogger"] as CategoryKey[]).filter(hasStyles);
 export const CATEGORY_KEYS: CategoryKey[] = [...CLOTHING_KEYS, "accessories"];
 
 export const CATEGORY_COVER: Record<CategoryKey, string> = {

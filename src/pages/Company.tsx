@@ -7,12 +7,12 @@ import { whatsappLink } from "@/lib/inquiry";
 /* -------------------------------- factory ------------------------------- */
 
 const FACTORY_IMAGES: [string, number][] = [
+  ["/images/factory/knitting.webp", 0],
+  ["/images/factory/finishing.webp", 1],
+  ["/images/factory/inspect.webp", 2],
+  ["/images/factory/floor2.webp", 1],
   ["/images/studio/factory-fabric-stock.webp", 3],
-  ["/images/factory-cutting.webp", 0],
-  ["/images/factory-floor.webp", 1],
-  ["/images/factory-qc.webp", 2],
-  ["/images/factory-sewing.webp", 1],
-  ["/images/factory-warehouse.webp", 3],
+  ["/images/factory/warehouse.webp", 3],
 ];
 
 export function FactoryPage({ lang }: { lang: Lang }) {
@@ -25,9 +25,9 @@ export function FactoryPage({ lang }: { lang: Lang }) {
 
       <section className="paper py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {FACTORY_IMAGES.map(([src, k], i) => (
-              <figure key={src} className={`fade-up group relative overflow-hidden rounded-xl border border-border ${i === 0 ? "sm:col-span-2 sm:row-span-2 aspect-[4/3] sm:aspect-auto" : "aspect-[4/3]"}`}>
+          <div className="grid grid-cols-2 gap-3 lg:grid-cols-3">
+            {FACTORY_IMAGES.map(([src, k]) => (
+              <figure key={src} className={`fade-up group relative overflow-hidden rounded-xl border border-border aspect-[3/4]`}>
                 <img src={src} alt={`${t.title} — ${t.items[k].t}`} loading="lazy" className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
                 <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-4 text-sm font-medium text-white">
                   {t.items[k].t}
@@ -171,7 +171,7 @@ export function AboutPage({ lang }: { lang: Lang }) {
             </div>
             <div className="fade-up lg:col-span-2">
               <div className="overflow-hidden rounded-xl border border-border">
-                <img src="/images/factory-showroom.webp" alt={t.title} loading="lazy" className="aspect-[4/3] w-full object-cover" />
+                <img src="/images/factory/finishing.webp" alt="Worker finishing activewear at a SoulSelect partner factory" loading="lazy" className="aspect-[4/3] w-full object-cover" />
               </div>
               <div className="mt-6 rounded-xl border border-border bg-white p-7">
                 <h2 className="font-display text-xl font-semibold text-ink">{t.factsTitle}</h2>
